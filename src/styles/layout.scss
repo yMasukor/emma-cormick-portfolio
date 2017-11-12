@@ -1,0 +1,219 @@
+@mixin h-padded {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  box-sizing: border-box;
+
+  @include media(">small") {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @include media(">medium") {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  @include media(">large") {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@mixin v-padded {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+
+  @include media(">small")  {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  @include media(">medium")  {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  @include media(">large")  {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@mixin h-center{
+  display: flex;
+	flex-direction: row;
+  justify-content: center;
+}
+
+@mixin v-center{
+  display: flex;
+	flex-direction: row;
+  align-items: center;
+}
+
+@mixin flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+@mixin justify-start{
+  justify-content: flex-start;
+}
+
+@mixin justify-center{
+  justify-content: center;
+}
+
+@mixin justify-end{
+  justify-content: end;
+}
+
+@mixin align-start{
+  align-items: flex-start;
+}
+
+@mixin align-center{
+  align-items: center;
+}
+
+@mixin align-end{
+  align-items: flex-end;
+}
+
+@mixin full{
+  width: 100%;
+}
+
+@mixin half{
+  width: 50%;
+}
+
+@mixin quarter{
+  width: 25%;
+}
+
+@mixin three-quarters{
+  width: 75%;
+}
+
+@mixin five-sixths{
+  width: 83.33%;
+}
+
+@mixin third{
+  width: 33.33%;
+}
+
+@mixin two-thirds{
+  width: 66.66%;
+}
+
+@mixin sixth{
+  width: 16.66%
+}
+
+
+
+
+.v-center{
+  @include v-center;
+}
+
+.h-center{
+  @include h-center;
+}
+
+
+section{
+  @include v-padded;
+}
+
+
+.justify-start{
+  @include justify-start;
+}
+
+.justify-center{
+  @include justify-center;
+}
+
+.justify-end{
+  @include justify-end;
+}
+
+.align-start{
+  @include align-end;
+}
+
+.align-center{
+  @include align-end;
+}
+
+.align-end{
+  @include align-end;
+}
+
+
+.cell{
+  @include h-padded;
+}
+
+.outer{
+  @include h-padded;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container{
+  @include v-padded;
+}
+
+
+
+
+@include media(">medium") {
+
+  .flex{
+    @include flex;
+  }
+
+  .full{
+    @include full; 
+  }
+
+  .half{
+    @include half; 
+  }
+
+  .quarter{
+    @include quarter; 
+  }
+
+  .three-quarters{
+    @include three-quarters; 
+  }
+
+  .five-sixths{
+    @include five-sixths; 
+  }
+
+  .third{
+    @include third; 
+  }
+
+  .two-thirds{
+    @include two-thirds; 
+  }
+
+  .sixth{
+    @include sixth; 
+  }
+
+
+
+
+}

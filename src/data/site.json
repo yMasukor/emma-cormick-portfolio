@@ -1,0 +1,709 @@
+{
+  "shared":{
+    "footerContent":"If you’re interested in working together, get in touch.\n\n[hi@emmacormick.com](mailto:hi@emmacormick.com)",
+    "phone":"+61 123 456 778",
+    "email":"hi@emmacormick.com"
+  },
+  "pages":{
+    "home":{
+      "template":"home",
+      "slug":"",
+      "name":"Emma Cormick",
+      "intro":"I’ve recently graduated from Billy Blue College of Design, and am based in Sydney, Australia. I'm currently looking for opportunities with a company who loves designing amazing homes.",
+      "bioTitle":"I aim to create thoughtful spaces designed for living.",
+      "bio":"I’m passionate about designing residential interiors which are personal, considered and thoughtful, both in concept and in detail. I believe everyone deserves a place well-designed space of their own, so I aim for all my work to be affordable, and sustainable where possible.\n\nMy goal is to understand people’s unique and individual needs, and help them create beautiful, functional spaces in which they can truly live their lives.",
+      "skills":[
+        "Designing houses",
+        "Being rad"
+      ],
+      "software":[
+        "Autodesk Revit",
+        "Autodesk Autocad",
+        "Sketchup",
+        "Autodesk Maya",
+        "3DS Max",
+        "Adobe Suite"
+      ]
+    },
+
+    "horizon-apartment":{
+      "collections":["featured", "projects"],
+      "template":"project",
+      "slug":"horizon-apartment",
+      "name":"Horizon Apartment",
+      "date":"2017",
+      "size":"five-sixths",
+      "type":"Spatial planning / 3D visualization",
+      "snippet":"Renovation of a north facing Darlinghurst apartment, designed to improve natural light penetration and flow of space.",
+      "thumbSrc":"/assets/images/horizon-apartment/thumb.jpg",
+      "next":1,
+      "prev":3,
+      "pageBlocks":[
+        {
+          "type":"intro",
+          "title":"Horizon Apartment",
+          "content":"Renovation of a north facing Darlinghurst apartment, designed to improve natural light penetration and flow of space.",
+          "aside":"Apt 3/123 Some St \n Darlinghurst NSW 2000 \n\n 2 Bedroom \n 2 Bathroom \n 1200 m2"
+        },
+
+        {
+          "type":"full-image",
+          "src":"",
+          "aspect":"four-three",
+          "caption":"Fig. 1.0 – The Horizon Apartment"
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 1.1 – Renovated floor plan"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"third",
+              "caption":"Fig. 1.2 – Original floor plan "
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"Bright and open spaces",
+          "content":"The open space through the living, kitchen, and dining areas, allows natural light further into the apartment, illuminating the central corridor, creating a brighter, and more open environment."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 2.0 – Open plan allows natural light to penetrate further"
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"Naturally lit living areas",
+          "content":"Functional rooms with less need of light are relegated to the rear of the apartment, allowing living spaces to take full advantage of the large, north-facing windows."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"third",
+              "caption":"Fig. 3.0 – Bathroom & Laundry"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 3.1 – Living Spaces"
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"A grounded, natural flow",
+          "content":"The central hallway also provides a natural flow to the apartment, grounding the space, and allowing residents to easily traverse the apartment."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 4.0 – More natural flow"
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"An easy renovation",
+          "content":"To ease the renovation process the new design maintains the original position of all structural walls, as well as existing plumbing and gas infrastructure."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 5.0 – Original infrastructure"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 5.0 – Renovated infrastructure"
+            }
+          ]
+        },
+        {
+          "type":"text",
+          "title":"Natural, light materials",
+          "content":"Walls are finished with low sheen eggshell white, allowing light to further penetrate the space, while stone and timber add a natural warmth."
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 6.0 – Paint"
+            },
+            {
+              "src":"",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 6.1 – Timber"
+            },
+            {
+              "src":"",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 6.2 – Stone"
+            }
+          ]
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 7.0 – Lorem ipsum"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"third",
+              "caption":"Fig. 7.1 – Lorem ipsum"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"third",
+              "caption":"Fig. 7.2 – Lorem ipsum"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 7.3 – Lorem ipsum"
+            } 
+          ]
+        }
+        
+      ]
+    },
+
+    "potts-point-apartment":{
+      "collections":["featured", "projects"],
+      "template":"project",
+      "slug":"potts-point-apartment",
+      "name":"Potts Point Apartment",
+      "date":"2017",
+      "size":"two-thirds",
+      "type":"Spatial planning / Drafting",
+      "snippet":"Renovated single bedroom apartment in Potts Point, designed to improve layout and light, while working with existing bulkheads.",
+      "thumbSrc":"/assets/images/potts-point-apartment/thumb.jpg",
+      "pageBlocks":[
+        {
+          "type":"intro",
+          "title":"Potts Point Apartment",
+          "content":"Renovated single bedroom apartment in Potts Point, designed to improve layout and light, while working with existing bulkheads.",
+          "aside":"2/123 Some St \n Potts Point, NSW, 2000 \n\n 1 Bedroom \n 1 Bathroom \n 1200 m2"
+        },
+
+        {
+          "type":"full-image",
+          "src":"",
+          "aspect":"four-three",
+          "caption":"Fig. 1.0 – Potts Point Apartment"
+        },
+
+        {
+          "type":"text",
+          "title":"Adaptive spaces for maximum utility",
+          "content":"The residence is designed to adapt to the needs of its occupants – spaces can be sectioned off as needed, and the bedroom deliberately allows for multiple possible furniture layouts, increasing the utility, and flexibility of the space."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 2.0 – Renovated floor plan"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"third",
+              "caption":"Fig. 2.1 – Original floor plan "
+            }
+          ]
+        },
+        {
+          "type":"text",
+          "title":"Making the most of a small space",
+          "content":"Sliding cavity doors, as well as custom joinery, and built in storage maximise the usable floor space, making the most of the xxx m2 apartment. "
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"",
+              "aspect":"square",
+              "width":"half",
+              "caption":"Fig. 3.0 – Cavity doors maximise usable space"
+            },
+            {
+              "src":"",
+              "aspect":"square",
+              "width":"half",
+              "caption":"Fig. 3.1 – Custom joinery"
+            }
+          ]
+        },
+        {
+          "type":"text",
+          "title":"Maximizing natural light",
+          "content":"The layout takes advantage of the natural aspect of the building, maximizing the natural light available for the living and bedroom areas, while the laundry & storage are positioned further back, ensuring no window light is wasted."
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 4.0 – Lorem ipsum"
+            }
+          ]
+        },
+        {
+          "type":"text",
+          "title":"Keeping the original character",
+          "content":"The original flooring & bulkheads has been left intact, both to channel the original character of the building, and to ease the renovation process."
+        },
+        {
+          "type":"image-grid",
+          "images":[
+
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"third",
+              "caption":"Fig. 5.2 – Lorem ipsum"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 5.3 – Lorem ipsum"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 5.0 – Lorem ipsum"
+            }
+          ]
+        }
+      ]
+    },
+
+    "cubby-house":{
+      "collections":["featured", "projects"],
+      "template":"project",
+      "slug":"cubby-house",
+      "name":"Cubby House",
+      "date":"2017",
+      "type":"Conceptual design / spatial planning / 3D visualization",
+      "snippet":"A compact, affordable, and eco-friendly dwelling, designed in response to the growing housing affordability crisis.",
+      "thumbSrc":"/assets/images/cubby-house/thumb.jpg",
+      "pageBlocks":[
+
+        {
+          "type":"intro",
+          "title":"Cubby House",
+          "content":"A compact, affordable, and eco-friendly dwelling, designed in response to the growing housing affordability crisis.",
+          "aside":"2/123 Some St \n Potts Point, NSW, 2000 \n\n 1200 m2"
+        },
+
+        {
+          "type":"full-image",
+          "aspect":"four-three",
+          "src":"/assets/images/cubby-house/hero.jpg",
+          "caption":"Fig. 1.0 – The Cubby House"
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/cubby-house/stanmore.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 1.1 – Stanmore Location "
+            },
+            {
+              "src":"/assets/images/cubby-house/castle-hill.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 1.1 – Castle Hill "
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"Compact but comfortable",
+          "content":"The compact layout maximises usable space, while minimising the building's overall footprint, allowing for a comfortable living space for two residents in just xxx m2 of interior floor space."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/cubby-house/front-cutaway.jpg",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 2.0 – Front Cutaway"
+            },
+            {
+              "src":"/assets/images/cubby-house/front.jpg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 2.1 – Front"
+            },
+            {
+              "src":"/assets/images/cubby-house/cutaway-left.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 2.2 – Cutaway"
+            },
+            {
+              "src":"/assets/images/cubby-house/cutaway-right.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 2.3 – Cutaway"
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"Making the most of a tiny space",
+          "content":"Joinery designed especially for the building increase the versatility of the space, allowing the same rooms to suit different needs as the residents require."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/cubby-house/bar-table.jpg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 3.0 – Indoor bar table"
+            },
+            {
+              "src":"/assets/images/cubby-house/bar-table-open.jpg",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 3.1 – Bar table can extend into outdoor area"
+            },
+            {
+              "src":"/assets/images/cubby-house/laundry-open.jpg",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 3.2 – Custom drawer keeps laundry tidy"
+            },
+            {
+              "src":"/assets/images/cubby-house/laundry.jpg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 3.3 – Laundry drawer closed"
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"Passive heating & cooling",
+          "content":"The house utilises its aspect, along with the natural flow of air to cool during warmer months (passive cooling), while remaining warm during winters."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/cubby-house/airflow.jpg",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 4.0 – Passive heating & cooling"
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"Eco-friendly materials",
+          "content":"Materials were specifically selected to minimise both the cost of construction, as well as the ecological footprint of the property."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/cubby-house/material-paint.jpg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 5.0 – Milk Paint, Oyster White Wall Finish"
+            },
+            {
+              "src":"/assets/images/cubby-house/material-tiles.jpg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 5.1 – Coconut Tiles  Bathroom Walls"
+            },
+            {
+              "src":"/assets/images/cubby-house/material-floor.jpg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 5.2 – Kirei Floor Boards  General Flooring/ Ceiling"
+            },
+            {
+              "src":"/assets/images/cubby-house/material-stone.jpg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 5.3 – Recycled Stone Bathroom Floor"
+            },
+            {
+              "src":"/assets/images/cubby-house/material-window.jpg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 5.4 – Romanian Hemp Window Treatment"
+            },
+            {
+              "src":"/assets/images/cubby-house/material-textile.jpg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 5.5 – Biodegradable Fabric Textile"
+            }
+          ]
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/cubby-house/extra-1.jpg",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 6.0 – Lorem Ipsum"
+            },
+            {
+              "src":"/assets/images/cubby-house/extra-2.jpg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 6.1 – Lorem Ipsum"
+            },
+            {
+              "src":"/assets/images/cubby-house/extra-4.jpg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 6.1 – Lorem Ipsum"
+            },
+            {
+              "src":"/assets/images/cubby-house/extra-3.jpg",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 6.1 – Lorem Ipsum"
+            },
+            
+            {
+              "src":"/assets/images/cubby-house/extra-5.jpg",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 6.1 – Lorem Ipsum"
+            },
+            {
+              "src":"/assets/images/cubby-house/extra-7.jpg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 6.1 – Lorem Ipsum"
+            },
+            {
+              "src":"/assets/images/cubby-house/extra-6.jpg",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 6.0 – Lorem Ipsum"
+            }
+            
+          ]
+        }
+
+      ]
+    },
+
+    "southern-cross-aged-care":{
+      "collections":["featured", "projects"],
+      "template":"project",
+      "slug":"southern-cross-aged-care",
+      "name":"Southern Cross Aged Care",
+      "date":"2017",
+      "type":"Scheduling / Interior decoration",
+      "snippet":"Schedule for an aged care facility, designed to create a beautiful, home-like space for residents, without sacrificing utility or safety.",
+      "thumbSrc":"/assets/images/southern-cross-aged-care/thumb.jpg",
+      "pageBlocks":[
+        {
+          "type":"intro",
+          "title":"Southern Cross Aged Care",
+          "content":"Schedule for an aged care facility, designed to create a beautiful, home-like space for residents, without sacrificing utility or safety.",
+          "aside":"Lorem Ipsum \n Dolor Sit"
+        },
+
+        {
+          "type":"full-image",
+          "src":"",
+          "aspect":"four-three",
+          "caption":"Fig. 1.0 – Southern Cross Aged Care Schedule"
+        },
+        {
+          "type":"text",
+          "title":"Inspired by Australia's unique colors",
+          "content":"The palettes were derived from the colours of Australian eucalyptus trees, to create colourful, yet natural, and inviting spaces. "
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"",
+              "aspect":"square",
+              "width":"half",
+              "caption":"Fig. 2.0 – Lounge"
+            },
+            {
+              "src":"",
+              "aspect":"square",
+              "width":"half",
+              "caption":"Fig. 2.1 – Sitting"
+            },
+            {
+              "src":"",
+              "aspect":"square",
+              "width":"half",
+              "caption":"Fig. 2.2 – Dining"
+            },
+            {
+              "src":"",
+              "aspect":"square",
+              "width":"half",
+              "caption":"Fig. 2.3 – Apartment 1"
+            },
+            {
+              "src":"",
+              "aspect":"square",
+              "width":"half",
+              "caption":"Fig. 2.4 – Apartment 2"
+            },
+            {
+              "src":"",
+              "aspect":"square",
+              "width":"half",
+              "caption":"Fig. 2.5 – Utility areas"
+            }
+          ]
+        },
+        {
+          "type":"text",
+          "title":"Useful, not utilitarian",
+          "content":"Colours and materials were selected to maximise visibility and contrast, improving the utility of the environment for residents with aging vision, without resorting to garish, utilitarian schemes."
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 3.0 – Lorem ipsum"
+            }
+          ]
+        },
+        {
+          "type":"text",
+          "title":"Colour for wayfinding",
+          "content":"Colour is also used throughout the facility as a wayfinding mechanism, allowing residents to clearly differentiate areas and orient themselves accordingly, based on the colour & flooring of the space."
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 3.0 – Lorem ipsum"
+            }
+          ]
+        },
+        {
+          "type":"text",
+          "title":"Safe, hardy, and easy to maintain",
+          "content":"Materials and furnishings were chosen for robustness, safety, and ease of maintenance in mind, with hard-wearing/high-grip flooring, easily washable paints, and waterproof upholstery throughout."
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 7.0 – Lorem ipsum"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"third",
+              "caption":"Fig. 7.1 – Lorem ipsum"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"third",
+              "caption":"Fig. 7.2 – Lorem ipsum"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 7.3 – Lorem ipsum"
+            } 
+          ]
+        }
+      ]
+    }
+  }
+}
