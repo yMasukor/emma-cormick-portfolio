@@ -36,7 +36,7 @@
       "type":"Spatial planning / 3D visualization",
       "snippet":"Renovation of a north facing Darlinghurst apartment, designed to improve natural light penetration and flow of space.",
       "thumbSrc":"/assets/images/horizon-apartment/thumb.jpg",
-      "annotations":"Lorem ipsum dolor sit amet",
+      "annotations":"**Image References:** \n\n White Paint: http://bit.ly/2jnrRh0 \n Timber: http://bit.ly/2yVyxdb \n Stone: http://bit.ly/2hwY5WH",
       "pageBlocks":[
         {
           "type":"intro",
@@ -243,7 +243,7 @@
       "type":"Spatial planning / Drafting",
       "snippet":"Renovated single bedroom apartment in Potts Point, designed to improve layout and light, while working with existing bulkheads.",
       "thumbSrc":"/assets/images/potts-point-apartment/thumb.jpg",
-      "annotations":"Lorem ipsum dolor sit amet",
+      "annotations":"Lorem ipsum dolor **sit** amet",
       "pageBlocks":[
         {
           "type":"intro",
@@ -292,10 +292,10 @@
           "type":"image-grid",
           "images":[
             {
-              "src":"",
+              "src":"/assets/images/potts-point-apartment/cavity-doors.jpg",
               "aspect":"square",
               "width":"half",
-              "caption":"Fig. 3.0 – Cavity doors maximise usable space"
+              "caption":"Fig. 3.0 – Sliding cavity doors maximise usable space"
             },
             {
               "src":"",
