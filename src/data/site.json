@@ -36,8 +36,7 @@
       "type":"Spatial planning / 3D visualization",
       "snippet":"Renovation of a north facing Darlinghurst apartment, designed to improve natural light penetration and flow of space.",
       "thumbSrc":"/assets/images/horizon-apartment/thumb.jpg",
-      "next":1,
-      "prev":3,
+      "annotations":"Lorem ipsum dolor sit amet",
       "pageBlocks":[
         {
           "type":"intro",
@@ -225,6 +224,7 @@
       "type":"Spatial planning / Drafting",
       "snippet":"Renovated single bedroom apartment in Potts Point, designed to improve layout and light, while working with existing bulkheads.",
       "thumbSrc":"/assets/images/potts-point-apartment/thumb.jpg",
+      "annotations":"Lorem ipsum dolor sit amet",
       "pageBlocks":[
         {
           "type":"intro",
@@ -343,6 +343,7 @@
       "type":"Conceptual design / spatial planning / 3D visualization",
       "snippet":"A compact, affordable, and eco-friendly dwelling, designed in response to the growing housing affordability crisis.",
       "thumbSrc":"/assets/images/cubby-house/thumb.jpg",
+      "annotations":"Lorem ipsum dolor sit amet",
       "pageBlocks":[
 
         {
@@ -577,6 +578,7 @@
       "type":"Scheduling / Interior decoration",
       "snippet":"Schedule for an aged care facility, designed to create a beautiful, home-like space for residents, without sacrificing utility or safety.",
       "thumbSrc":"/assets/images/southern-cross-aged-care/thumb.jpg",
+      "annotations":"Lorem ipsum dolor sit amet",
       "pageBlocks":[
         {
           "type":"intro",
