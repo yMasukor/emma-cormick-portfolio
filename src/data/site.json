@@ -13,16 +13,22 @@
       "bioTitle":"I aim to create thoughtful spaces designed for living.",
       "bio":"I’m passionate about designing residential interiors which are personal, considered and thoughtful, both in concept and in detail. I believe everyone deserves a place well-designed space of their own, so I aim for all my work to be affordable, and sustainable where possible.\n\nMy goal is to understand people’s unique and individual needs, and help them create beautiful, functional spaces in which they can truly live their lives.",
       "skills":[
-        "Designing houses",
-        "Being rad"
+        "Spatial Planning",
+        "3D Visualisation",
+        "Scheduling & Documentation",
+        "3D Modeling, Texturing, Lighting",
+        "3D Printing & Model Making",
+        "Virtual Reality Spatial Simulation"
       ],
       "software":[
         "Autodesk Revit",
         "Autodesk Autocad",
         "Sketchup",
-        "Autodesk Maya",
+        "ArchiCAD",
+        "Autodesk 3Ds Max",
         "3DS Max",
-        "Adobe Suite"
+        "Adobe Creative Suite",
+        "Autodesk Maya"
       ]
     },
 
@@ -36,7 +42,7 @@
       "type":"Spatial planning / 3D visualization",
       "snippet":"Renovation of a north facing Darlinghurst apartment, designed to improve natural light penetration and flow of space.",
       "thumbSrc":"/assets/images/horizon-apartment/thumb.jpg",
-      "annotations":"**Image References:** \n\n White Paint: http://bit.ly/2jnrRh0 \n Timber: http://bit.ly/2yVyxdb \n Stone: http://bit.ly/2hwY5WH",
+      "annotations":"**Image Ref Sources:** \n\n 1. White Paint: http://bit.ly/2jnrRh0 \n 2.  Timber: http://bit.ly/2yVyxdb \n 3. Stone: http://bit.ly/2hwY5WH",
       "pageBlocks":[
         {
           "type":"intro",
@@ -115,7 +121,7 @@
         {
           "type":"text",
           "title":"A grounded, natural flow",
-          "content":"The central hallway also provides a natural flow to the apartment, grounding the space, and allowing residents to easily traverse the apartment."
+          "content":"The central hallway also provides a natural flow to the home, grounding the space, and allowing residents to easily traverse the apartment."
         },
 
         {
@@ -140,7 +146,7 @@
         {
           "type":"text",
           "title":"An easy renovation",
-          "content":"To ease the renovation process the new design maintains the original position of all structural walls, as well as existing plumbing and gas infrastructure."
+          "content":"To ease the renovation process, the new design maintains the original position of all structural walls, as well as existing plumbing and gas infrastructure."
         },
 
         {
@@ -163,7 +169,7 @@
         {
           "type":"text",
           "title":"Natural, light materials",
-          "content":"Walls are finished with low sheen eggshell white, allowing light to further penetrate the space, while stone and timber add a natural warmth."
+          "content":"Walls are finished with low sheen eggshell white, allowing light to bounce and permiate the space, while stone and timber add a natural warmth."
         },
         {
           "type":"image-grid",
@@ -172,19 +178,19 @@
               "src":"/assets/images/horizon-apartment/white-paint.jpeg",
               "aspect":"square",
               "width":"third",
-              "caption":"Fig. 6.0 – White Paint"
+              "caption":"Fig. 6.0 – White Paint (Ref #1)"
             },
             {
               "src":"/assets/images/horizon-apartment/oak.jpg",
               "aspect":"square",
               "width":"third",
-              "caption":"Fig. 6.1 – Oak Timber"
+              "caption":"Fig. 6.1 – Oak Timber (Ref #2)"
             },
             {
               "src":"/assets/images/horizon-apartment/stone.jpg",
               "aspect":"square",
               "width":"third",
-              "caption":"Fig. 6.2 – Natural Stone"
+              "caption":"Fig. 6.2 – Natural Stone (Ref #3)"
             }
           ]
         },
@@ -192,37 +198,37 @@
           "type":"image-grid",
           "images":[
             {
-              "src":"/assets/images/horizon-apartment/Lounge.png",
+              "src":"/assets/images/horizon-apartment/lounge.jpg",
               "aspect":"four-three",
               "width":"full",
               "caption":"Fig. 7.0 – Living Room"
             },
             {
-              "src":"/assets/images/horizon-apartment/Study.png",
+              "src":"/assets/images/horizon-apartment/study.jpg",
               "aspect":"four-three",
               "width":"half",
               "caption":"Fig. 7.1 – Study"
             },
             {
-              "src":"/assets/images/horizon-apartment/Kitchen.png",
+              "src":"/assets/images/horizon-apartment/kitchen.jpg",
               "aspect":"four-three",
               "width":"half",
               "caption":"Fig. 7.2 – Kitchen"
             },
             {
-              "src":"/assets/images/horizon-apartment/Bedroom.png",
+              "src":"/assets/images/horizon-apartment/Bedroom.jpg",
               "aspect":"four-three",
               "width":"full",
               "caption":"Fig. 7.3 – Bedroom"
             },
             {
-              "src":"/assets/images/horizon-apartment/Dining.png",
+              "src":"/assets/images/horizon-apartment/dining.jpg",
               "aspect":"four-three",
               "width":"half",
               "caption":"Fig. 7.4 – Dining"
             },
             {
-              "src":"/assets/images/horizon-apartment/Ensuite.png",
+              "src":"/assets/images/horizon-apartment/ensuite.jpg",
               "aspect":"four-three",
               "width":"half",
               "caption":"Fig. 7.5 – Bathroom"
@@ -243,7 +249,7 @@
       "type":"Spatial planning / Drafting",
       "snippet":"Renovated single bedroom apartment in Potts Point, designed to improve layout and light, while working with existing bulkheads.",
       "thumbSrc":"/assets/images/potts-point-apartment/thumb.jpg",
-      "annotations":"Lorem ipsum dolor **sit** amet",
+      "annotations":"",
       "pageBlocks":[
         {
           "type":"intro",
@@ -262,23 +268,23 @@
         {
           "type":"text",
           "title":"Adaptive spaces for maximum utility",
-          "content":"The residence is designed to adapt to the needs of its occupants – spaces can be sectioned off as needed, and the bedroom deliberately allows for multiple possible furniture layouts, increasing the utility, and flexibility of the space."
+          "content":"The residence is designed to adapt to the needs of its occupants – spaces can be sectioned off as needed. The bedroom avoids built-ins to allow for a number of potential furniture layouts, increasing the flexibility of the space."
         },
 
         {
           "type":"image-grid",
           "images":[
             {
-              "src":"",
+              "src":"/assets/images/potts-point-apartment/original-plan.jpg",
               "aspect":"four-three",
-              "width":"two-thirds",
-              "caption":"Fig. 2.0 – Renovated floor plan"
+              "width":"half",
+              "caption":"Fig. 2.0 – Original floor plan"
             },
             {
-              "src":"",
+              "src":"/assets/images/potts-point-apartment/renovated-plan.jpg",
               "aspect":"four-three",
-              "width":"third",
-              "caption":"Fig. 2.1 – Original floor plan "
+              "width":"half",
+              "caption":"Fig. 2.1 – Renovated flor plan"
             }
           ]
         },
@@ -292,61 +298,61 @@
           "type":"image-grid",
           "images":[
             {
-              "src":"/assets/images/potts-point-apartment/cavity-doors.jpg",
+              "src":"/assets/images/potts-point-apartment/cavity-doors-2.jpg",
               "aspect":"square",
               "width":"half",
               "caption":"Fig. 3.0 – Sliding cavity doors maximise usable space"
             },
             {
-              "src":"",
-              "aspect":"square",
+              "src":"/assets/images/potts-point-apartment/custom-joinery.jpg",
+              "aspect":"four-three",
               "width":"half",
-              "caption":"Fig. 3.1 – Custom joinery"
+              "caption":"Fig. 3.1 – Custom joinery Locations"
             }
           ]
         },
         {
           "type":"text",
           "title":"Maximizing natural light",
-          "content":"The layout takes advantage of the natural aspect of the building, maximizing the natural light available for the living and bedroom areas, while the laundry & storage are positioned further back, ensuring no window light is wasted."
+          "content":"The layout takes advantage of the natural aspect of the building, maximising the natural light available for the living and bedroom areas, while the laundry & storage are positioned further back, ensuring no window light is wasted."
         },
         {
           "type":"image-grid",
           "images":[
             {
-              "src":"",
+              "src":"/assets/images/potts-point-apartment/sunlight.jpg",
               "aspect":"four-three",
               "width":"full",
-              "caption":"Fig. 4.0 – Lorem ipsum"
+              "caption":"Fig. 4.0 – Position of habitable rooms in relation to windows vs laundry/storage"
             }
           ]
         },
         {
           "type":"text",
           "title":"Keeping the original character",
-          "content":"The original flooring & bulkheads has been left intact, both to channel the original character of the building, and to ease the renovation process."
+          "content":"The original flooring & bulkheads has been left intact, both to channel the original character of the building, and to ease the renovation process. Walls and joinery have been designed to work either under, inline, with or flush to the existing bulkheads."
         },
         {
           "type":"image-grid",
           "images":[
 
             {
-              "src":"",
+              "src":"/assets/images/potts-point-apartment/bulkhead-original.jpg",
               "aspect":"four-three",
-              "width":"third",
-              "caption":"Fig. 5.2 – Lorem ipsum"
+              "width":"half",
+              "caption":"Fig. 5.2 – Original bulkhead position"
+            },
+            {
+              "src":"/assets/images/potts-point-apartment/bulkhead-renovated.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 5.3 – Renovated wall position vs bulkheads"
             },
             {
               "src":"",
               "aspect":"four-three",
               "width":"two-thirds",
-              "caption":"Fig. 5.3 – Lorem ipsum"
-            },
-            {
-              "src":"",
-              "aspect":"four-three",
-              "width":"two-thirds",
-              "caption":"Fig. 5.0 – Lorem ipsum"
+              "caption":"Fig. 5.0 – (Render?)"
             }
           ]
         }
@@ -362,14 +368,14 @@
       "type":"Conceptual design / spatial planning / 3D visualization",
       "snippet":"A compact, affordable, and eco-friendly dwelling, designed in response to the growing housing affordability crisis.",
       "thumbSrc":"/assets/images/cubby-house/thumb.jpg",
-      "annotations":"Lorem ipsum dolor sit amet",
+      "annotations":"**Image References** \n 1. Porterspaints.com. Naturals - Milk Paint. Publish date unknown. http://www.porterspaints.com/paints/naturals/milk-paint/ \n 2.  Kirei.com. Coco Tiles. Publish date unknown. http://kireiusa.com/kirei-coco-tiles/ \n 3.  Kirei.com. Kirei Board. Publish date unknown http://kireiusa.com/kirei-board/ \n 4. Kirei.com. Kirei Board. Publish date unknown http://kireiusa.com/kirei-board \n 5.  Sudo, R. NUNO - Green Fabric. Published 2001. http://www.nuno.com/en/textile/green-fabric \n 6. Envirotextiles. 100% Hemp Textiles. Published 2010. https://envirotextile.com/hemp-fabrics/hemp-canvas \n 7.  Kirei.com. Kirei Board. Publish date unknown. http://kireiusa.com/kirei-board",
       "pageBlocks":[
 
         {
           "type":"intro",
           "title":"Cubby House",
           "content":"A compact, affordable, and eco-friendly dwelling, designed in response to the growing housing affordability crisis.",
-          "aside":"2/123 Some St \n Potts Point, NSW, 2000 \n\n 1200 m2"
+          "aside":"1 Bedroom \n 1 Bathroom \n Location: Various \n\n xxxx m2"
         },
 
         {
@@ -386,13 +392,13 @@
               "src":"/assets/images/cubby-house/stanmore.jpg",
               "aspect":"four-three",
               "width":"half",
-              "caption":"Fig. 1.1 – Stanmore Location "
+              "caption":"Fig. 1.1 – In-Situ: Castle Hill Garden"
             },
             {
               "src":"/assets/images/cubby-house/castle-hill.jpg",
               "aspect":"four-three",
               "width":"half",
-              "caption":"Fig. 1.1 – Castle Hill "
+              "caption":"Fig. 1.2 – In-Situ: Stanmore Garden"
             }
           ]
         },
@@ -400,43 +406,67 @@
         {
           "type":"text",
           "title":"Compact but comfortable",
-          "content":"The compact layout maximises usable space, while minimising the building's overall footprint, allowing for a comfortable living space for two residents in just xxx m2 of interior floor space."
+          "content":"Designed to fit into a backyard, the compact layout maximises usable space, while minimising the building's overall footprint - allowing for a comfortable living space for two residents in just xxx m2 of interior floor space."
         },
 
         {
           "type":"image-grid",
           "images":[
             {
-              "src":"/assets/images/cubby-house/front-cutaway.jpg",
+              "src":"/assets/images/cubby-house/spatial-1.jpg",
               "aspect":"four-three",
-              "width":"two-thirds",
-              "caption":"Fig. 2.0 – Front Cutaway"
+              "width":"full",
+              "caption":"Fig. 2.6 – Perspective cut & spatial allocations"
             },
             {
-              "src":"/assets/images/cubby-house/front.jpg",
-              "aspect":"square",
-              "width":"third",
-              "caption":"Fig. 2.1 – Front"
-            },
-            {
-              "src":"/assets/images/cubby-house/cutaway-left.jpg",
+              "src":"",
               "aspect":"four-three",
               "width":"half",
-              "caption":"Fig. 2.2 – Cutaway"
+              "caption":"Fig. 2.0 – Ground Floor Plan"
             },
             {
-              "src":"/assets/images/cubby-house/cutaway-right.jpg",
+              "src":"",
               "aspect":"four-three",
               "width":"half",
-              "caption":"Fig. 2.3 – Cutaway"
-            }
+              "caption":"Fig. 2.1 – Top Floor Plan"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 2.2 – Section 1"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 2.3 – Section 2"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 2.4 – Elevation Front"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 2.5 – Elevation Side"
+            },
+            {
+              "src":"/assets/images/cubby-house/interior-perspective-cutaway.jpg",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 2.6 – Interior Perspective Cutaway"
+            }           
           ]
         },
 
         {
           "type":"text",
           "title":"Making the most of a tiny space",
-          "content":"Joinery designed specifically for the building increase the versatility of the space, allowing the same rooms to suit different needs as the residents require."
+          "content":"Joinery designed specifically for the structure increases the versatility of the space, allowing the same rooms to suit different needs as the residents require."
         },
 
         {
@@ -458,13 +488,25 @@
               "src":"/assets/images/cubby-house/laundry-open.jpg",
               "aspect":"four-three",
               "width":"two-thirds",
-              "caption":"Fig. 3.2 – Custom drawer keeps laundry tidy"
+              "caption":"Fig. 3.2 – Custom pull out cupboard keeps laundry compact and tidy"
             },
             {
               "src":"/assets/images/cubby-house/laundry.jpg",
               "aspect":"square",
               "width":"third",
-              "caption":"Fig. 3.3 – Laundry drawer closed"
+              "caption":"Fig. 3.3 – Laundry cupboard closed"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 3.4 – Bedroom custom Joinery"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 3.5 – Lounge/Stair custom joinery"
             }
           ]
         },
@@ -482,7 +524,19 @@
               "src":"/assets/images/cubby-house/airflow.jpg",
               "aspect":"four-three",
               "width":"full",
-              "caption":"Fig. 4.0 – Passive heating & cooling"
+              "caption":"Fig. 4.0 – Passive heating & cooling airflow diagram, showing heat escape via pop up roof"
+            },
+              {
+              "src":"/assets/images/cubby-house/doors-open.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 6.0 – Exterior Doors Open"
+            },
+            {
+              "src":"/assets/images/cubby-house/doors-closed.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 6.1 – Exterior Doors Closed"
             }
           ]
         },
@@ -490,7 +544,7 @@
         {
           "type":"text",
           "title":"Eco-friendly materials",
-          "content":"Materials were specifically selected to minimise both the cost of construction, as well as the ecological footprint of the property."
+          "content":"Materials were specifically selected to minimise both the cost of construction, as well as the ecological footprint of the structure."
         },
 
         {
@@ -500,37 +554,37 @@
               "src":"/assets/images/cubby-house/material-paint.jpg",
               "aspect":"square",
               "width":"third",
-              "caption":"Fig. 5.0 – Milk Paint, Oyster White Wall Finish"
+              "caption":"Fig. 5.0 – Milk Paint, Oyster White Wall Finish (Ref #1)"
             },
             {
               "src":"/assets/images/cubby-house/material-tiles.jpg",
               "aspect":"square",
               "width":"third",
-              "caption":"Fig. 5.1 – Coconut Tiles  Bathroom Walls"
+              "caption":"Fig. 5.1 – Coconut Tiles  Bathroom Walls (Ref #2)"
             },
             {
               "src":"/assets/images/cubby-house/material-floor.jpg",
               "aspect":"square",
               "width":"third",
-              "caption":"Fig. 5.2 – Kirei Floor Boards  General Flooring/ Ceiling"
+              "caption":"Fig. 5.2 – Kirei Floor Boards  General Flooring/ Ceiling (Ref #3)"
             },
             {
               "src":"/assets/images/cubby-house/material-stone.jpg",
               "aspect":"square",
               "width":"third",
-              "caption":"Fig. 5.3 – Recycled Stone Bathroom Floor"
+              "caption":"Fig. 5.3 – Recycled Stone Bathroom Floor (Ref #7)"
             },
             {
               "src":"/assets/images/cubby-house/material-window.jpg",
               "aspect":"square",
               "width":"third",
-              "caption":"Fig. 5.4 – Romanian Hemp Window Treatment"
+              "caption":"Fig. 5.4 – Romanian Hemp Window Treatment (Ref #6)"
             },
             {
               "src":"/assets/images/cubby-house/material-textile.jpg",
               "aspect":"square",
               "width":"third",
-              "caption":"Fig. 5.5 – Biodegradable Fabric Textile"
+              "caption":"Fig. 5.5 – Biodegradable Fabric Textile (Ref #5)"
             }
           ]
         },
@@ -539,47 +593,52 @@
           "type":"image-grid",
           "images":[
             {
-              "src":"/assets/images/cubby-house/extra-1.jpg",
+              "src":"/assets/images/cubby-house/exterior-perspective-front.jpg",
               "aspect":"four-three",
-              "width":"two-thirds",
-              "caption":"Fig. 6.0 – Lorem Ipsum"
+              "width":"full",
+              "caption":"Fig. 6.1 – Exterior Perspective Front"
             },
             {
-              "src":"/assets/images/cubby-house/extra-2.jpg",
-              "aspect":"square",
-              "width":"third",
-              "caption":"Fig. 6.1 – Lorem Ipsum"
-            },
-            {
-              "src":"/assets/images/cubby-house/extra-4.jpg",
-              "aspect":"square",
-              "width":"third",
-              "caption":"Fig. 6.1 – Lorem Ipsum"
-            },
-            {
-              "src":"/assets/images/cubby-house/extra-3.jpg",
+              "src":"",
               "aspect":"four-three",
-              "width":"two-thirds",
-              "caption":"Fig. 6.1 – Lorem Ipsum"
+              "width":"half",
+              "caption":"Fig. 6.2 – Kitchen"
             },
-            
             {
               "src":"/assets/images/cubby-house/extra-5.jpg",
               "aspect":"four-three",
-              "width":"two-thirds",
-              "caption":"Fig. 6.1 – Lorem Ipsum"
+              "width":"half",
+              "caption":"Fig. 6.3 – Lounge"
             },
             {
-              "src":"/assets/images/cubby-house/extra-7.jpg",
-              "aspect":"square",
+              "src":"/assets/images/cubby-house/bathroom-01.jpg",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 6.4 – Bathroom"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
               "width":"third",
-              "caption":"Fig. 6.1 – Lorem Ipsum"
+              "caption":"Fig. 6.4 – Bathroom joinery detail"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"third",
+              "caption":"Fig. 6.4 – Study Detail"
             },
             {
               "src":"/assets/images/cubby-house/extra-6.jpg",
               "aspect":"four-three",
               "width":"two-thirds",
-              "caption":"Fig. 6.0 – Lorem Ipsum"
+              "caption":"Fig. 6.5 – Bedrooom"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 6.5 – Exterior"
             }
             
           ]
@@ -597,7 +656,7 @@
       "type":"Scheduling / Interior decoration",
       "snippet":"Schedule for an aged care facility, designed to create a beautiful, home-like space for residents, without sacrificing utility or safety.",
       "thumbSrc":"/assets/images/southern-cross-aged-care/thumb.jpg",
-      "annotations":"Lorem ipsum dolor sit amet",
+      "annotations":"",
       "pageBlocks":[
         {
           "type":"intro",
@@ -670,57 +729,81 @@
               "src":"",
               "aspect":"four-three",
               "width":"full",
-              "caption":"Fig. 3.0 – Lorem ipsum"
+              "caption":"Fig. 3.0 – Materials Board"
             }
           ]
         },
         {
           "type":"text",
           "title":"Colour for wayfinding",
-          "content":"Colour is also used throughout the facility as a wayfinding mechanism, allowing residents to clearly differentiate areas and orient themselves accordingly, based on the colour & flooring of the space."
+          "content":"Colour is also used throughout the facility as a wayfinding mechanism, allowing residents to clearly differentiate areas and orient themselves accordingly, based on the wall, floor, and furniture colour of the space."
         },
         {
           "type":"image-grid",
           "images":[
+                      {
+              "src":"",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 3.0 – Living Room"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 3.0 – Dining"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 3.0 – Apartment Option 1/2"
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 3.0 – Sun Room"
+            },
             {
               "src":"",
               "aspect":"four-three",
               "width":"full",
-              "caption":"Fig. 3.0 – Lorem ipsum"
+              "caption":"Fig. 3.1 – Areas seperated by floor colour"
             }
           ]
         },
         {
           "type":"text",
           "title":"Safe, hardy, and easy to maintain",
-          "content":"Materials and furnishings were chosen for robustness, safety, and ease of maintenance in mind, with hard-wearing/high-grip flooring, easily washable paints, and waterproof upholstery throughout."
+          "content":"Materials and furnishings were chosen for robustness, safety, and ease of maintenance in mind - with hard-wearing/high-grip flooring, easily washable paints, and waterproof upholstery throughout."
         },
         {
           "type":"image-grid",
           "images":[
             {
               "src":"",
-              "aspect":"four-three",
-              "width":"two-thirds",
-              "caption":"Fig. 7.0 – Lorem ipsum"
+              "aspect":"square",
+              "width":"half",
+              "caption":"Fig. 7.0 – Florbo SureStep high grip vinyl flooring"
             },
             {
               "src":"",
-              "aspect":"four-three",
-              "width":"third",
-              "caption":"Fig. 7.1 – Lorem ipsum"
+              "aspect":"square",
+              "width":"half",
+              "caption":"Fig. 7.1 – Waterproof Upholstry"
             },
             {
               "src":"",
-              "aspect":"four-three",
-              "width":"third",
-              "caption":"Fig. 7.2 – Lorem ipsum"
+              "aspect":"square",
+              "width":"half",
+              "caption":"Fig. 7.2 – Washable Paint"
             },
             {
               "src":"",
-              "aspect":"four-three",
-              "width":"two-thirds",
-              "caption":"Fig. 7.3 – Lorem ipsum"
+              "aspect":"square",
+              "width":"half",
+              "caption":"Fig. 7.3 – Hard wearing materials"
             } 
           ]
         }
