@@ -48,7 +48,7 @@
 
         {
           "type":"full-image",
-          "src":"",
+          "src":"/assets/images/horizon-apartment/thumb.jpg",
           "aspect":"four-three",
           "caption":"Fig. 1.0 – The Horizon Apartment"
         },
@@ -57,13 +57,13 @@
           "type":"image-grid",
           "images":[
             {
-              "src":"",
+              "src":"/assets/images/horizon-apartment/renovated-floor-plan-room-names.jpg",
               "aspect":"four-three",
               "width":"two-thirds",
               "caption":"Fig. 1.1 – Renovated floor plan"
             },
             {
-              "src":"",
+              "src":"/assets/images/horizon-apartment/original-floor-plan-room-names.jpg",
               "aspect":"four-three",
               "width":"third",
               "caption":"Fig. 1.2 – Original floor plan "
@@ -81,10 +81,16 @@
           "type":"image-grid",
           "images":[
             {
-              "src":"",
+              "src":"/assets/images/horizon-apartment/model-view-top-down.jpg",
               "aspect":"four-three",
               "width":"full",
-              "caption":"Fig. 2.0 – Open plan allows natural light to penetrate further"
+              "caption":"Fig. 2.0 – Model view, top down - Open plan allows natural light to penetrate further"
+            },
+            {
+              "src":"/assets/images/horizon-apartment/3D-01.jpg",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 2.1 – Model View, Perspective - Open plan allows natural light to penetrate further"
             }
           ]
         },
@@ -99,16 +105,10 @@
           "type":"image-grid",
           "images":[
             {
-              "src":"",
+              "src":"/assets/images/horizon-apartment/floor-plan-numbered.jpg",
               "aspect":"four-three",
-              "width":"third",
-              "caption":"Fig. 3.0 – Bathroom & Laundry"
-            },
-            {
-              "src":"",
-              "aspect":"four-three",
-              "width":"two-thirds",
-              "caption":"Fig. 3.1 – Living Spaces"
+              "width":"full",
+              "caption":"Fig. 3.1 – Spatial Allocations"
             }
           ]
         },
@@ -123,9 +123,9 @@
           "type":"image-grid",
           "images":[
             {
-              "src":"",
+              "src":"/assets/images/horizon-apartment/flow-new.jpg",
               "aspect":"four-three",
-              "width":"full",
+              "width":"two-thirds",
               "caption":"Fig. 4.0 – More natural flow"
             }
           ]
@@ -416,7 +416,7 @@
         {
           "type":"text",
           "title":"Making the most of a tiny space",
-          "content":"Joinery designed especially for the building increase the versatility of the space, allowing the same rooms to suit different needs as the residents require."
+          "content":"Joinery designed specifically for the building increase the versatility of the space, allowing the same rooms to suit different needs as the residents require."
         },
 
         {
