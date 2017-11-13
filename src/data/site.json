@@ -43,7 +43,7 @@
           "type":"intro",
           "title":"Horizon Apartment",
           "content":"Renovation of a north facing Darlinghurst apartment, designed to improve natural light penetration and flow of space.",
-          "aside":"Apt 3/123 Some St \n Darlinghurst NSW 2000 \n\n 2 Bedroom \n 2 Bathroom \n 1200 m2"
+          "aside":"Apt 3/123 Some St \n Darlinghurst NSW 2000 \n\n 2 Bedroom \n 1 Bathroom \n xxx m2"
         },
 
         {
@@ -126,8 +126,15 @@
               "src":"/assets/images/horizon-apartment/flow-new.jpg",
               "aspect":"four-three",
               "width":"two-thirds",
-              "caption":"Fig. 4.0 – More natural flow"
+              "caption":"Fig. 4.0 – NEW - A more natural flow"
+            },
+            {
+              "src":"/assets/images/horizon-apartment/flow-old.jpg",
+              "aspect":"four-three",
+              "width":"third",
+              "caption":"Fig. 4.1 – OLD - Original flow"
             }
+
           ]
         },
 
@@ -163,22 +170,22 @@
           "type":"image-grid",
           "images":[
             {
-              "src":"",
+              "src":"/assets/images/horizon-apartment/white-paint.jpeg",
               "aspect":"square",
               "width":"third",
-              "caption":"Fig. 6.0 – Paint"
+              "caption":"Fig. 6.0 – White Paint"
             },
             {
-              "src":"",
+              "src":"/assets/images/horizon-apartment/oak.jpg",
               "aspect":"square",
               "width":"third",
-              "caption":"Fig. 6.1 – Timber"
+              "caption":"Fig. 6.1 – Oak Timber"
             },
             {
-              "src":"",
+              "src":"/assets/images/horizon-apartment/stone.jpg",
               "aspect":"square",
               "width":"third",
-              "caption":"Fig. 6.2 – Stone"
+              "caption":"Fig. 6.2 – Natural Stone"
             }
           ]
         },
@@ -186,29 +193,41 @@
           "type":"image-grid",
           "images":[
             {
-              "src":"",
+              "src":"/assets/images/horizon-apartment/Lounge.png",
               "aspect":"four-three",
-              "width":"two-thirds",
-              "caption":"Fig. 7.0 – Lorem ipsum"
+              "width":"full",
+              "caption":"Fig. 7.0 – Living Room"
             },
             {
-              "src":"",
+              "src":"/assets/images/horizon-apartment/Study.png",
               "aspect":"four-three",
-              "width":"third",
-              "caption":"Fig. 7.1 – Lorem ipsum"
+              "width":"half",
+              "caption":"Fig. 7.1 – Study"
             },
             {
-              "src":"",
+              "src":"/assets/images/horizon-apartment/Kitchen.png",
               "aspect":"four-three",
-              "width":"third",
-              "caption":"Fig. 7.2 – Lorem ipsum"
+              "width":"half",
+              "caption":"Fig. 7.2 – Kitchen"
             },
             {
-              "src":"",
+              "src":"/assets/images/horizon-apartment/Bedroom.png",
               "aspect":"four-three",
-              "width":"two-thirds",
-              "caption":"Fig. 7.3 – Lorem ipsum"
-            } 
+              "width":"full",
+              "caption":"Fig. 7.3 – Bedroom"
+            },
+            {
+              "src":"/assets/images/horizon-apartment/Dining.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 7.4 – Dining"
+            },
+            {
+              "src":"/assets/images/horizon-apartment/Ensuite.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 7.5 – Bathroom"
+            }
           ]
         }
         
@@ -230,12 +249,12 @@
           "type":"intro",
           "title":"Potts Point Apartment",
           "content":"Renovated single bedroom apartment in Potts Point, designed to improve layout and light, while working with existing bulkheads.",
-          "aside":"2/123 Some St \n Potts Point, NSW, 2000 \n\n 1 Bedroom \n 1 Bathroom \n 1200 m2"
+          "aside":"2/123 Some St \n Potts Point, NSW, 2000 \n\n 1 Bedroom \n 1 Bathroom \n xxxx m2"
         },
 
         {
           "type":"full-image",
-          "src":"",
+          "src":"/assets/images/potts-point-apartment/floor-plan-furniture.jpg",
           "aspect":"four-three",
           "caption":"Fig. 1.0 – Potts Point Apartment"
         },
