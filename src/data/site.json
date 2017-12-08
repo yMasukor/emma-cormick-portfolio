@@ -11,25 +11,26 @@
       "name":"Emma Cormick",
       "intro":"I’ve recently graduated from Billy Blue College of Design, and am based in Sydney, Australia. I'm currently looking for opportunities with a company who loves designing amazing homes.",
       "bioTitle":"I aim to create thoughtful spaces designed for living.",
-      "bio":"I’m passionate about designing residential interiors which are personal, considered and thoughtful, both in concept and in detail. I believe everyone deserves a place well-designed space of their own, so I aim for all my work to be affordable, and sustainable where possible.\n\nMy goal is to understand people’s unique and individual needs, and help them create beautiful, functional spaces in which they can truly live their lives.",
+      "bio":"I’m passionate about designing residential interiors which are personal, considered and thoughtful, both in concept and in detail. I believe everyone deserves a well-designed space of their own, so I aim for all my work to be affordable, and sustainable where possible.\n\nMy goal is to understand people’s unique and individual needs, and help them create beautiful, functional spaces in which they can truly live their lives.",
       "skills":[
         "Spatial Planning",
         "3D Visualisation",
         "Scheduling & Documentation",
         "3D Modeling, Texturing, Lighting",
         "3D Printing & Model Making",
-        "Virtual Reality Spatial Simulation"
+        "Virtual Reality Spatial Simulation",
+        "& more"
       ],
       "software":[
-        "Autodesk Revit",
-        "Autodesk Autocad",
-        "Sketchup",
+        "Revit",
+        "AutoCAD",
+        "SketchUp",
         "ArchiCAD",
-        "Autodesk 3Ds Max",
-        "3DS Max",
+        "3Ds Max",
         "Adobe Creative Suite",
-        "Autodesk Maya"
-      ]
+        "Autodesk Maya",
+        "& more"
+        ]
     },
 
     "horizon-apartment":{
@@ -48,7 +49,7 @@
           "type":"intro",
           "title":"Horizon Apartment",
           "content":"Renovation of a north facing Darlinghurst apartment, designed to improve natural light penetration and flow of space.",
-          "aside":"Apt 3/123 Some St \n Darlinghurst NSW 2000 \n\n 2 Bedroom \n 1 Bathroom \n xxx m2"
+          "aside":"Apt 3/123 Some St \n Darlinghurst NSW 2000 \n\n 2 Bedroom \n 1 Bathroom"
         },
 
         {
@@ -64,13 +65,13 @@
             {
               "src":"/assets/images/horizon-apartment/renovated-floor-plan-room-names.jpg",
               "aspect":"four-three",
-              "width":"two-thirds",
+              "width":"half",
               "caption":"Fig. 1.1 – Renovated floor plan"
             },
             {
               "src":"/assets/images/horizon-apartment/original-floor-plan-room-names.jpg",
               "aspect":"four-three",
-              "width":"third",
+              "width":"half",
               "caption":"Fig. 1.2 – Original floor plan "
             }
           ]
@@ -130,13 +131,13 @@
             {
               "src":"/assets/images/horizon-apartment/flow-new.jpg",
               "aspect":"four-three",
-              "width":"two-thirds",
+              "width":"half",
               "caption":"Fig. 4.0 – NEW - A more natural flow"
             },
             {
               "src":"/assets/images/horizon-apartment/flow-old.jpg",
               "aspect":"four-three",
-              "width":"third",
+              "width":"half",
               "caption":"Fig. 4.1 – OLD - Original flow"
             }
 
@@ -255,7 +256,7 @@
           "type":"intro",
           "title":"Potts Point Apartment",
           "content":"Renovated single bedroom apartment in Potts Point, designed to improve layout and light, while working with existing bulkheads.",
-          "aside":"2/123 Some St \n Potts Point, NSW, 2000 \n\n 1 Bedroom \n 1 Bathroom \n xxxx m2"
+          "aside":"2/123 Some St \n Potts Point, NSW, 2000 \n\n 1 Bedroom \n 1 Bathroom"
         },
 
         {
@@ -291,7 +292,7 @@
         {
           "type":"text",
           "title":"Making the most of a small space",
-          "content":"Sliding cavity doors, as well as custom joinery, and built in storage maximise the usable floor space, making the most of the xxx m2 apartment. "
+          "content":"Sliding cavity doors, as well as custom joinery, and built in storage maximise the usable floor space. "
         },
 
         {
@@ -347,12 +348,6 @@
               "aspect":"four-three",
               "width":"half",
               "caption":"Fig. 5.3 – Renovated wall position vs bulkheads"
-            },
-            {
-              "src":"",
-              "aspect":"four-three",
-              "width":"two-thirds",
-              "caption":"Fig. 5.0 – (Render?)"
             }
           ]
         }
@@ -375,7 +370,7 @@
           "type":"intro",
           "title":"Cubby House",
           "content":"A compact, affordable, and eco-friendly dwelling, designed in response to the growing housing affordability crisis.",
-          "aside":"1 Bedroom \n 1 Bathroom \n Location: Various \n\n xxxx m2"
+          "aside":"1 Bedroom \n 1 Bathroom \n Location: Various"
         },
 
         {
@@ -406,7 +401,7 @@
         {
           "type":"text",
           "title":"Compact but comfortable",
-          "content":"Designed to fit into a backyard, the compact layout maximises usable space, while minimising the building's overall footprint - allowing for a comfortable living space for two residents in just xxx m2 of interior floor space."
+          "content":"Designed to fit into a backyard, the compact layout maximises usable space, while minimising the building's overall footprint - allowing for a comfortable living space for two residents in a small home."
         },
 
         {
@@ -417,42 +412,6 @@
               "aspect":"four-three",
               "width":"full",
               "caption":"Fig. 2.6 – Perspective cut & spatial allocations"
-            },
-            {
-              "src":"",
-              "aspect":"four-three",
-              "width":"half",
-              "caption":"Fig. 2.0 – Ground Floor Plan"
-            },
-            {
-              "src":"",
-              "aspect":"four-three",
-              "width":"half",
-              "caption":"Fig. 2.1 – Top Floor Plan"
-            },
-            {
-              "src":"",
-              "aspect":"four-three",
-              "width":"half",
-              "caption":"Fig. 2.2 – Section 1"
-            },
-            {
-              "src":"",
-              "aspect":"four-three",
-              "width":"half",
-              "caption":"Fig. 2.3 – Section 2"
-            },
-            {
-              "src":"",
-              "aspect":"four-three",
-              "width":"half",
-              "caption":"Fig. 2.4 – Elevation Front"
-            },
-            {
-              "src":"",
-              "aspect":"four-three",
-              "width":"half",
-              "caption":"Fig. 2.5 – Elevation Side"
             },
             {
               "src":"/assets/images/cubby-house/interior-perspective-cutaway.jpg",
@@ -495,18 +454,6 @@
               "aspect":"square",
               "width":"third",
               "caption":"Fig. 3.3 – Laundry cupboard closed"
-            },
-            {
-              "src":"",
-              "aspect":"four-three",
-              "width":"half",
-              "caption":"Fig. 3.4 – Bedroom custom Joinery"
-            },
-            {
-              "src":"",
-              "aspect":"four-three",
-              "width":"half",
-              "caption":"Fig. 3.5 – Lounge/Stair custom joinery"
             }
           ]
         },
@@ -595,14 +542,8 @@
             {
               "src":"/assets/images/cubby-house/exterior-perspective-front.jpg",
               "aspect":"four-three",
-              "width":"full",
-              "caption":"Fig. 6.1 – Exterior Perspective Front"
-            },
-            {
-              "src":"",
-              "aspect":"four-three",
               "width":"half",
-              "caption":"Fig. 6.2 – Kitchen"
+              "caption":"Fig. 6.1 – Exterior Perspective Front"
             },
             {
               "src":"/assets/images/cubby-house/extra-5.jpg",
@@ -613,32 +554,14 @@
             {
               "src":"/assets/images/cubby-house/bathroom-01.jpg",
               "aspect":"four-three",
-              "width":"two-thirds",
+              "width":"half",
               "caption":"Fig. 6.4 – Bathroom"
-            },
-            {
-              "src":"",
-              "aspect":"four-three",
-              "width":"third",
-              "caption":"Fig. 6.4 – Bathroom joinery detail"
-            },
-            {
-              "src":"",
-              "aspect":"four-three",
-              "width":"third",
-              "caption":"Fig. 6.4 – Study Detail"
             },
             {
               "src":"/assets/images/cubby-house/extra-6.jpg",
               "aspect":"four-three",
-              "width":"two-thirds",
+              "width":"half",
               "caption":"Fig. 6.5 – Bedrooom"
-            },
-            {
-              "src":"",
-              "aspect":"four-three",
-              "width":"full",
-              "caption":"Fig. 6.5 – Exterior"
             }
             
           ]
@@ -656,18 +579,18 @@
       "type":"Scheduling / Interior decoration",
       "snippet":"Schedule for an aged care facility, designed to create a beautiful, home-like space for residents, without sacrificing utility or safety.",
       "thumbSrc":"/assets/images/southern-cross-aged-care/thumb.jpg",
-      "annotations":"",
+      "annotations":"**Image References** \n 1. Bark Organisms, Leerentz. 2015. Available: https://leerentz.wordpress.com/2010/03/16/seattles-arboretum-pretty-in-pink/ \n 2.  Blue Bark, Kasia, 2015. Available: https://www.flickr.com/photos/kasia-pics/3779370345/in/set-72157607087174112 \n 3.  Red Bark, Unknown, 2017. Avaibable: https://s-media-cache-ak0.pinimg.com/736x/c7/26/5c/c7265c33de8b4a00dfeb8596ec78be0a.jpg \n 4. Coloured Bark, Unknown. 2017. Available: https://s-media-cache-ak0.pinimg.com/originals/84/a9/16/84a91660862ad58711d1f6c998c4859b.jpg \n 5. Multi, Pollet. 2016. Available: http://www.cedric-pollet.com/photo/index.html \n 6. Blue Bark, Polyvore. 2014. Available: http://www.polyvore.com/tree_bark_natural_textures_anna/thing?id=146789402 \n 7.  Peeling, Jane T. 2016. Available: https://www.flickr.com/photos/janetlittle/10390815266/in/album-72157636772893693/ \n 8.  Green and Reds, PDB. 2015. Available: http://plurdledgabbleblotchits.tumblr.com/post/87711808229/httpindigosoultumblrcom-australian-spotted \n 9. Yellow White Bark, Unknown. 2017. Available: https://s-media-cache-ak0.pinimg.com/564x/3c/f6/04/3cf6048da0529dfb90c7dcabf53763e2.jpg \n 10. Mottled, N5. 2015. Available: http://www.nordic5arts.com/artists/sobol_helene/2-BarkSeries-13.jpg \n 11. Bark Wash, MS. 2015. Available: http://www.martineschnoering.com/article-pins-sylvestres-ecorces-bourgeons-104871500.html  \n 12. Spots. Stanzim. 2014. Available: https://www.flickr.com/photos/stanzim/3861441727/lightbox/  \n 13. Powder Bark, Unknown, 2017. Available: https://s-media-cache-ak0.pinimg.com/originals/46/ea/27/46ea27f9a53dbb59221429742d9f1bba.jpg  \n 14. Washable Paint https://www.dulux.com.au/products/52L \n 15. Hard wearing materials https://ak6.picdn.net/shutterstock/videos/12347936/preview/stock-footage-floor-care-and-cleaning-services-with-washing-mop-in-sterile-factory-or-clean-hospital.mp4 \n 16. Waterproof upholstry https://www.contrado.co.uk/digital-linden-waterproof-printing" ,
       "pageBlocks":[
         {
           "type":"intro",
           "title":"Southern Cross Aged Care",
-          "content":"Schedule for an aged care facility, designed to create a beautiful, home-like space for residents, without sacrificing utility or safety.",
-          "aside":"Lorem Ipsum \n Dolor Sit"
+          "content":"Schedule for an aged care facility, designed to create a beautiful, home-like space for residents, without sacrificing utility or safety. \n \n View the full schedule here: http://bit.ly/2B0zst2 ",
+          "aside":"Scheduling & Documentation \n Sample Sourcing"
         },
 
         {
           "type":"full-image",
-          "src":"",
+          "src":"/assets/images/southern-cross-aged-care/hero1.jpg",
           "aspect":"four-three",
           "caption":"Fig. 1.0 – Southern Cross Aged Care Schedule"
         },
@@ -680,38 +603,38 @@
           "type":"image-grid",
           "images":[
             {
-              "src":"",
-              "aspect":"square",
+              "src":"/assets/images/southern-cross-aged-care/sitting-natural.jpg",
+              "aspect":"four-three",
               "width":"half",
-              "caption":"Fig. 2.0 – Lounge"
+              "caption":"Fig. 2.0 – Sitting"
             },
             {
-              "src":"",
-              "aspect":"square",
+              "src":"/assets/images/southern-cross-aged-care/lounge-natural.jpg",
+              "aspect":"four-three",
               "width":"half",
-              "caption":"Fig. 2.1 – Sitting"
+              "caption":"Fig. 2.1 – Lounge"
             },
             {
-              "src":"",
-              "aspect":"square",
+              "src":"/assets/images/southern-cross-aged-care/dining-natural.jpg",
+              "aspect":"four-three",
               "width":"half",
               "caption":"Fig. 2.2 – Dining"
             },
             {
-              "src":"",
-              "aspect":"square",
+              "src":"/assets/images/southern-cross-aged-care/apt1-natural.jpg",
+              "aspect":"four-three",
               "width":"half",
               "caption":"Fig. 2.3 – Apartment 1"
             },
             {
-              "src":"",
-              "aspect":"square",
+              "src":"/assets/images/southern-cross-aged-care/apt2-natural.jpg",
+              "aspect":"four-three",
               "width":"half",
               "caption":"Fig. 2.4 – Apartment 2"
             },
             {
-              "src":"",
-              "aspect":"square",
+              "src":"/assets/images/southern-cross-aged-care/utility-natural.jpg",
+              "aspect":"four-three",
               "width":"half",
               "caption":"Fig. 2.5 – Utility areas"
             }
@@ -726,10 +649,10 @@
           "type":"image-grid",
           "images":[
             {
-              "src":"",
+              "src":"/assets/images/southern-cross-aged-care/apartments-materials-board.jpg",
               "aspect":"four-three",
               "width":"full",
-              "caption":"Fig. 3.0 – Materials Board"
+              "caption":"Fig. 3.0 – Materials Boards: (Left) Apartment 2, (Right) Apartment 1"
             }
           ]
         },
@@ -742,31 +665,31 @@
           "type":"image-grid",
           "images":[
                       {
-              "src":"",
+              "src":"/assets/images/southern-cross-aged-care/lounge-board.jpg",
               "aspect":"four-three",
               "width":"half",
               "caption":"Fig. 3.0 – Living Room"
             },
             {
-              "src":"",
+              "src":"/assets/images/southern-cross-aged-care/dining-board.jpg",
               "aspect":"four-three",
               "width":"half",
               "caption":"Fig. 3.0 – Dining"
             },
             {
-              "src":"",
+              "src":"/assets/images/southern-cross-aged-care/apt1-board.jpg",
               "aspect":"four-three",
               "width":"half",
               "caption":"Fig. 3.0 – Apartment Option 1/2"
             },
             {
-              "src":"",
+              "src":"/assets/images/southern-cross-aged-care/sitting-board.jpg",
               "aspect":"four-three",
               "width":"half",
               "caption":"Fig. 3.0 – Sun Room"
             },
             {
-              "src":"",
+              "src":"/assets/images/southern-cross-aged-care/floor-plan.jpg",
               "aspect":"four-three",
               "width":"full",
               "caption":"Fig. 3.1 – Areas seperated by floor colour"
@@ -782,25 +705,25 @@
           "type":"image-grid",
           "images":[
             {
-              "src":"",
+              "src":"/assets/images/southern-cross-aged-care/walking.jpg",
               "aspect":"square",
               "width":"half",
               "caption":"Fig. 7.0 – Florbo SureStep high grip vinyl flooring"
             },
             {
-              "src":"",
+              "src":"/assets/images/southern-cross-aged-care/waterproof.jpg",
               "aspect":"square",
               "width":"half",
               "caption":"Fig. 7.1 – Waterproof Upholstry"
             },
             {
-              "src":"",
+              "src":"/assets/images/southern-cross-aged-care/material-wash.jpg",
               "aspect":"square",
               "width":"half",
               "caption":"Fig. 7.2 – Washable Paint"
             },
             {
-              "src":"",
+              "src":"/assets/images/southern-cross-aged-care/cleaner.jpg",
               "aspect":"square",
               "width":"half",
               "caption":"Fig. 7.3 – Hard wearing materials"
