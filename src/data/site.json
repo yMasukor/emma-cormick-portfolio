@@ -33,6 +33,207 @@
         ]
     },
 
+    "the-gardens":{
+      "collections":["featured", "projects"],
+      "template":"project",
+      "slug":"the-gardens",
+      "name":"The Gardens",
+      "date":"2017",
+      "size":"five-sixths",
+      "type":"Conceptual design / Spatial planning / 3D visualization / Drafting / Interior decoration",
+      "snippet":"A new development with 1, 2, & 3 bedroom apartments, designed with beautiful materials, natural light, decor flexibility, outdoor space, and a sense of community",
+      "thumbSrc":"/assets/images/the-gardens/thumb.jpg",
+      "annotations":"**Image Ref Sources:** \n\n 1. White Paint: http://bit.ly/2jnrRh0 \n 2.  Timber: http://bit.ly/2yVyxdb \n 3. Stone: http://bit.ly/2hwY5WH",
+      "pageBlocks":[
+        {
+          "type":"intro",
+          "title":"The Gardens",
+          "content":"A new development with 1, 2, & 3 bedroom apartments, designed with beautiful materials, natural light, decor flexibility, outdoor space, and a sense of community",
+          "aside":"377 Darling Street \n Balmain NSW 2000 \n\n 1, 2 & 3 Bedroom \n 1 & 2 Bathroom"
+        },
+
+        {
+          "type":"full-image",
+          "src":"/assets/images/the-gardens/thumb.jpg",
+          "aspect":"four-three",
+          "caption":"Fig. 1.0 – The gardens"
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/the-gardens/renovated-floor-plan-room-names.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 1.1 – Something"
+            },
+            {
+              "src":"/assets/images/the-gardens/original-floor-plan-room-names.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 1.2 – Another Thing"
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"A shared outdoors",
+          "content":"The Gardens complex is designed around a central shared garden space, ensuring all occupants have usable outdoor areas. The garden itself is terraced into multiple levels to create a versatile mixed use space, and afford residents a sense privacy."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/the-gardens/model-view-top-down.jpg",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 2.0 – "
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"Natural air and light",
+          "content":"The central garden corridor ensures that all apartments have at least 3 walls exposed to natural light, with large windows maximising air flow and natural light penetration."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/the-gardens/floor-plan-numbered.jpg",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 3.1 – Spatial Allocations"
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"3 unique styles",
+          "content":"The complex contains 1, 2 & 3 bedroom apartments,  in order to accommodate a mix of residents and lifestyles. Larger apartments have ensuites in addition to the main bathroom, and all apartments contain an internal laundry."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/the-gardens/flow-new.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 4.0 – "
+            },
+            {
+              "src":"/assets/images/the-gardens/flow-old.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 4.1 – "
+            }
+
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"Efficient, flexible, comfortable.",
+          "content":"All apartments are designed to be space efficient, but still comfortable. Custom joinery and sliding doors throughout maximise usable indoor space, while flexible layouts can adapt to a wide range of lifestyles."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 5.0 – "
+            },
+            {
+              "src":"",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 5.0 – "
+            }
+          ]
+        },
+        {
+          "type":"text",
+          "title":"Natural and timeless",
+          "content":"Apartments are finished with subdued natural textures, and are designed not to dictate a particular furnishing style, or taste. This ensures apartments can adapt to the occupant's personal tastes, and allows them to remain timeless, and flexible."
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/the-gardens/white-paint.jpeg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 6.0 – White Paint (Ref #1)"
+            },
+            {
+              "src":"/assets/images/the-gardens/oak.jpg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 6.1 – Oak Timber (Ref #2)"
+            },
+            {
+              "src":"/assets/images/the-gardens/stone.jpg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 6.2 – Natural Stone (Ref #3)"
+            }
+          ]
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/the-gardens/lounge.jpg",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 7.0 – "
+            },
+            {
+              "src":"/assets/images/the-gardens/study.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 7.1 – "
+            },
+            {
+              "src":"/assets/images/the-gardens/kitchen.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 7.2 – "
+            },
+            {
+              "src":"/assets/images/the-gardens/Bedroom.jpg",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 7.3 – "
+            },
+            {
+              "src":"/assets/images/the-gardens/dining.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 7.4 – "
+            },
+            {
+              "src":"/assets/images/the-gardens/ensuite.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 7.5 – "
+            }
+          ]
+        }
+        
+      ]
+    },
+
     "horizon-apartment":{
       "collections":["featured", "projects"],
       "template":"project",
