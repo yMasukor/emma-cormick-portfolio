@@ -180,6 +180,12 @@ footer{
   }
 }
 
+#other-work{
+  .work-inner{
+    background-color: #65ADB2;
+  }
+}
+
 
 .project{
   .text{
@@ -212,4 +218,8 @@ a{
     transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
     transform: translate3d(0, -10%, 0);
   }
+}
+
+.divider{
+  border-top: 1px solid $divider-color;
 }

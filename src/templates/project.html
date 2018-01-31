@@ -75,6 +75,12 @@
 
 {% endmacro %}
 
+{% macro divider(data) %}
+
+  <div class="divider"></div>
+
+{% endmacro %}  
+
 
 
 
@@ -113,6 +119,10 @@
       {{ text(block)}}
     {% endif %}
 
+    {% if (block.type == 'divider')%}
+      {{ divider(block)}}
+    {% endif %}
+
   {% endfor %}
 
   <section class="text outer flex">
@@ -130,8 +140,8 @@
 
 
       
-      {% set nextA = collections.projects[(projectsIndex+1)%4] %}
-      {% set nextB = collections.projects[(projectsIndex+2)%4] %} 
+      {% set nextA = collections.projects[(projectsIndex+1)%collections.projects.length] %}
+      {% set nextB = collections.projects[(projectsIndex+2)%collections.projects.length] %} 
 
       {% set nextProjects = [nextA, nextB] %} 
 

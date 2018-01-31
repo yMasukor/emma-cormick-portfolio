@@ -764,7 +764,6 @@
               "width":"half",
               "caption":"Fig. 6.5 – Bedrooom"
             }
-            
           ]
         }
 
@@ -929,6 +928,74 @@
               "width":"half",
               "caption":"Fig. 7.3 – Hard wearing materials"
             } 
+          ]
+        }
+      ]
+    },
+    "other-work":{
+      "collections":["projects", "featured"],
+      "template":"project",
+      "slug":"other-work",
+      "name":"Other Work",
+      "date":"2015 - 2018",
+      "type":"Various",
+      "snippet":"A ongoing collection of small snippets of other projects. A mix of conceptual work, technical illustrations, sketches, and other things",
+      "thumbSrc":"/assets/images/other-work/thumb.jpg",
+      "pageBlocks":[
+        {
+          "type":"intro",
+          "title":"Other Work",
+          "content":"A ongoing collection of small snippets of other projects. A mix of conceptual work, technical illustrations, sketches, and other things",
+          "aside":""
+        },
+        {
+          "type":"divider"
+        },
+        {
+          "type":"text",
+          "title":"Some other work",
+          "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum malesuada nisl. Phasellus lacinia lacinia ligula ac aliquam."
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/other-work/exterior-perspective-front.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 6.1 – Exterior Perspective Front"
+            },
+            {
+              "src":"/assets/images/other-work/extra-5.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 6.3 – Lounge"
+            }
+          ]
+        },
+        {
+          "type":"divider"
+        },
+        {
+          "type":"text",
+          "title":"Another other work",
+          "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum malesuada nisl. Phasellus lacinia lacinia ligula ac aliquam."
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/other-work/exterior-perspective-front.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 6.1 – Exterior Perspective Front"
+            },
+            {
+              "src":"/assets/images/other-work/extra-5.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 6.3 – Lounge"
+            }
           ]
         }
       ]
