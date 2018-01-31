@@ -145,11 +145,11 @@ section{
 }
 
 .align-start{
-  @include align-end;
+  @include align-start;
 }
 
 .align-center{
-  @include align-end;
+  @include align-center;
 }
 
 .align-end{

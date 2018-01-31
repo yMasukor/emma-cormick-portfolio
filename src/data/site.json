@@ -33,6 +33,214 @@
         ]
     },
 
+    "the-gardens":{
+      "collections":["featured", "projects"],
+      "template":"project",
+      "slug":"the-gardens",
+      "name":"The Gardens",
+      "date":"2017",
+      "size":"five-sixths",
+      "type":"Conceptual design / Spatial planning / 3D visualization / Drafting / Interior decoration",
+      "snippet":"A new development with 1, 2, & 3 bedroom apartments, designed with beautiful materials, natural light, decor flexibility, outdoor space, and a sense of community",
+      "thumbSrc":"/assets/images/the-gardens/thumb.jpg",
+      "annotations":"",
+      "pageBlocks":[
+        {
+          "type":"intro",
+          "title":"The Gardens",
+          "content":"A new development with 1, 2, & 3 bedroom apartments, designed with beautiful materials, natural light, decor flexibility, outdoor space, and a sense of community",
+          "aside":"377 Darling Street \n Balmain NSW 2000 \n\n 1, 2 & 3 Bedroom \n 1 & 2 Bathroom"
+        },
+
+        {
+          "type":"full-image",
+          "src":"/assets/images/the-gardens/thumb.jpg",
+          "aspect":"four-three",
+          "caption":"Fig. 1.0 – The Gardens - Kitchen & lounge"
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/the-gardens/kitchen.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 1.1 – The Gardens – Kitchen"
+            },
+            {
+              "src":"/assets/images/the-gardens/lounge-1.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 1.2 – The Gardens – Lounge"
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"A shared outdoors",
+          "content":"The Gardens complex is designed around a central shared garden space, ensuring all occupants have usable outdoor areas. The garden itself is terraced into multiple levels to create a versatile mixed use space, and afford residents a sense privacy."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/the-gardens/garden-plan.jpg",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 2.0 – Shared garden space"
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"Natural air and light",
+          "content":"The central garden corridor ensures that all apartments have at least 3 walls exposed to natural light, with large windows maximising air flow and natural light penetration."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/the-gardens/lounge-2.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 3.0 – Natural light penetration"
+            },
+            {
+              "src":"/assets/images/the-gardens/building-plan-garden.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 3.1 – Central garden corridor"
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"5 unique styles",
+          "content":"The complex contains 5 unique apartment layouts, from 1 to 3 bedrooms, in order to accommodate a mix of residents and lifestyles. Larger apartments have ensuites in addition to the main bathroom, and all apartments contain an internal laundry."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/the-gardens/apartments-coloured-1.png",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 4.0 – All apartments"
+            },
+            {
+              "src":"/assets/images/the-gardens/option1.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 4.1 – 1 Bedroom"
+            },
+            {
+              "src":"/assets/images/the-gardens/option2.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 4.2 – 1 Bedroom"
+            },
+            {
+              "src":"/assets/images/the-gardens/option3.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 4.3 – 2 Bedroom"
+            },
+            {
+              "src":"/assets/images/the-gardens/option4.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Fig. 4.4 – 1 Bedroom"
+            },
+            {
+              "src":"/assets/images/the-gardens/option5.png",
+              "aspect":"square",
+              "width":"half",
+              "caption":"Fig. 4.5 – 3 Bedroom"
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"Efficient, flexible, comfortable.",
+          "content":"All apartments are designed to be space efficient, but still comfortable. Custom joinery and sliding doors throughout maximise usable indoor space, while flexible layouts can adapt to a wide range of lifestyles."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/the-gardens/bedroom.jpg",
+              "aspect":"four-three",
+              "width":"two-thirds",
+              "caption":"Fig. 5.0 – Custom joinery"
+            },
+            {
+              "src":"/assets/images/the-gardens/ensuite.jpg",
+              "aspect":"square",
+              "width":"third",
+              "caption":"Fig. 5.1 – Space efficient ensuite"
+            }
+          ]
+        },
+
+        {
+          "type":"text",
+          "title":"Working around constraints",
+          "content":"The Gardens complex is a renovation of an existing structure. To avoid any major modifications, the new plans are built around the current positions of lifts, fire stairs, support pillars, and service voids."
+        },
+
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/the-gardens/floor-plan-existing.png",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 6.0 – Original floor plan"
+            }
+          ]
+        },
+
+
+        {
+          "type":"text",
+          "title":"Natural and timeless",
+          "content":"Apartments are finished with subdued natural textures, and are designed not to dictate a particular furnishing style, or taste. This ensures apartments can adapt to the occupant's personal tastes, and allows them to remain timeless, and flexible."
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/the-gardens/materials-board.jpg",
+              "aspect":"square",
+              "width":"full",
+              "caption":"Fig. 7.0 – Materials board"
+            }
+          ]
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/the-gardens/booklet.gif",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Fig. 8.0 – The gardens promotional leaflet"
+            }
+          ]
+        }
+        
+      ]
+    },
+
     "horizon-apartment":{
       "collections":["featured", "projects"],
       "template":"project",
@@ -563,7 +771,6 @@
               "width":"half",
               "caption":"Fig. 6.5 – Bedrooom"
             }
-            
           ]
         }
 
@@ -728,6 +935,238 @@
               "width":"half",
               "caption":"Fig. 7.3 – Hard wearing materials"
             } 
+          ]
+        }
+      ]
+    },
+    "other-work":{
+      "collections":["projects", "featured"],
+      "template":"project",
+      "slug":"other-work",
+      "name":"Other Work",
+      "date":"2015 - 2018",
+      "type":"Various",
+      "snippet":"A ongoing collection of small snippets of other projects. A mix of conceptual work, technical illustrations, sketches, and other things",
+      "thumbSrc":"/assets/images/other-work/wentworth-point/cb-render-kitchen.jpg",
+      "pageBlocks":[
+        {
+          "type":"intro",
+          "title":"Other Work",
+          "content":"A ongoing collection of small snippets of other projects. A mix of conceptual work, technical illustrations, sketches, and other things",
+          "aside":""
+        },
+        {
+          "type":"divider"
+        },
+        {
+          "type":"text",
+          "title":"Wentworth Point Apartment",
+          "content":"Technical drawings & renders for Wentworth Point apartment"
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/other-work/wentworth-point/cb-render-bedroom-study.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Bedroom study pre-visualisation"
+            },
+            {
+              "src":"/assets/images/other-work/wentworth-point/cb-render-bedroom.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Bedroom pre-visualisation"
+            },
+            {
+              "src":"/assets/images/other-work/wentworth-point/cb-render-dining.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Dining pre-visualisation"
+            },
+            {
+              "src":"/assets/images/other-work/wentworth-point/cb-render-kitchen.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Kitchen pre-visualisation"
+            },
+            {
+              "src":"/assets/images/other-work/wentworth-point/cb-render-living.jpg",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Living pre-visualisation"
+            },
+            {
+              "src":"/assets/images/other-work/wentworth-point/cb-ensuite-mirror-detail-section.png",
+              "aspect":"square",
+              "width":"half",
+              "caption":"Ensuite mirror detail section"
+            },
+            {
+              "src":"/assets/images/other-work/wentworth-point/cb-ensuite-section-1.png",
+              "aspect":"square",
+              "width":"half",
+              "caption":"Ensuite section"
+            },
+            {
+              "src":"/assets/images/other-work/wentworth-point/cb-ensuite-vanity-detail-section.png",
+              "aspect":"square",
+              "width":"half",
+              "caption":"Ensuite vanity detail section"
+            },
+            {
+              "src":"/assets/images/other-work/wentworth-point/cb-handrail-detail.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Handrail detail"
+            },
+            {
+              "src":"/assets/images/other-work/wentworth-point/cb-kitchen-elevations.png",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Kitchen elevation"
+            },
+            {
+              "src":"/assets/images/other-work/wentworth-point/cb-stair-detail-section-junction-with-floor-1.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Stair detail section junction with floor"
+            },
+            {
+              "src":"/assets/images/other-work/wentworth-point/cb-stair-detail-section-junction-withf-floor.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Stair detail section junction with floor"
+            },
+            {
+              "src":"/assets/images/other-work/wentworth-point/cb-stair-tread-baulstrade-junction-detail.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Stair tread baulstrade junction detail"
+            },
+            {
+              "src":"/assets/images/other-work/wentworth-point/cb-stair-tread-detail-section.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Stair tread detail"
+            },
+            {
+              "src":"/assets/images/other-work/wentworth-point/cb-typical-wall-detail-section.png",
+              "aspect":"square",
+              "width":"half",
+              "caption":"Typical wall detail section"
+            }
+          ]
+        },
+        {
+          "type":"divider"
+        },
+        {
+          "type":"text",
+          "title":"Mitchison house",
+          "content":"Technical drawings for the Mistchison house"
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/other-work/mitchison-house/108-detail-sections.png",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Detail sections"
+            },
+            {
+              "src":"/assets/images/other-work/mitchison-house/108-floor-plan-rcp.png",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Floor plan rcp"
+            },
+            {
+              "src":"/assets/images/other-work/mitchison-house/108-kitchen-elevation-1.png",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Kitchen elevation"
+            },
+            {
+              "src":"/assets/images/other-work/mitchison-house/108-kitchen-section-1.png",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Kitchen section"
+            }
+          ]
+        },
+        {
+          "type":"divider"
+        },
+        {
+          "type":"text",
+          "title":"Ultimo apartments",
+          "content":"Technical drawings for the Ultimo apartments"
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/other-work/ultimo/ultimo-sun-studies.png",
+              "aspect":"four-three",
+              "width":"full",
+              "caption":"Sun studies"
+            },
+            {
+              "src":"/assets/images/other-work/ultimo/ultimo-stair-isometric.png",
+              "aspect":"square",
+              "width":"full",
+              "caption":"Stairs isometric"
+            }
+          ]
+        },
+        {
+          "type":"divider"
+        },
+        {
+          "type":"text",
+          "title":"Floor & Stair details",
+          "content":"Technical drawings"
+        },
+        {
+          "type":"image-grid",
+          "images":[
+            {
+              "src":"/assets/images/other-work/floor-stair-details/rob-floor-detail-1.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Floor Detail"
+            },
+            {
+              "src":"/assets/images/other-work/floor-stair-details/rob-floor-fall.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Floor Fall"
+            },
+            {
+              "src":"/assets/images/other-work/floor-stair-details/rob-stair-detail-bottom.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Stair detail bottom"
+            },
+            {
+              "src":"/assets/images/other-work/floor-stair-details/rob-stair-detail-landing.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Stair detail landing"
+            },
+            {
+              "src":"/assets/images/other-work/floor-stair-details/rob-stair-detail-top.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Stair detail top"
+            },
+            {
+              "src":"/assets/images/other-work/floor-stair-details/rob-stair-tread-construction.png",
+              "aspect":"four-three",
+              "width":"half",
+              "caption":"Stair tread construction"
+            }
           ]
         }
       ]

@@ -150,6 +150,11 @@ footer{
   }
 }
 
+#the-gardens{
+  .work-inner{
+    background-color: #A2B368;
+  }
+}
 
 #horizon-apartment{
   .work-inner{
@@ -172,6 +177,12 @@ footer{
 #southern-cross-aged-care{
   .work-inner{
     background-color: #41555F;
+  }
+}
+
+#other-work{
+  .work-inner{
+    background-color: #65ADB2;
   }
 }
 
@@ -207,4 +218,8 @@ a{
     transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
     transform: translate3d(0, -10%, 0);
   }
+}
+
+.divider{
+  border-top: 1px solid $divider-color;
 }
