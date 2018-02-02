@@ -11,7 +11,7 @@
       "name":"Emma Cormick",
       "intro":"I’ve recently graduated from Billy Blue College of Design, and am based in Sydney, Australia. I'm currently looking for opportunities with a company who loves designing amazing homes.",
       "bioTitle":"I aim to create thoughtful spaces designed for living.",
-      "bio":"I’m passionate about designing residential interiors which are personal, considered and thoughtful, both in concept and in detail. I believe everyone deserves a well-designed space of their own, so I aim for all my work to be affordable, and sustainable where possible.\n\nMy goal is to understand people’s unique and individual needs, and help them create beautiful, functional spaces in which they can truly live their lives.",
+      "bio":"I’m passionate about designing residential interiors which are personal, considered and thoughtful, both in concept and in detail. I believe everyone deserves a well-designed space of their own, so I aim for all my work to be affordable, and sustainable where possible.\n\nMy goal is to understand people’s unique and individual needs, and help them create beautiful, functional spaces in which they can live well.",
       "skills":[
         "Spatial Planning",
         "3D Visualisation",
@@ -23,7 +23,7 @@
       ],
       "software":[
         "Revit",
-        "AutoCAD",
+        "AutoCAD", 
         "SketchUp",
         "ArchiCAD",
         "3Ds Max",
@@ -40,7 +40,7 @@
       "name":"The Gardens",
       "date":"2017",
       "size":"five-sixths",
-      "type":"Conceptual design / Spatial planning / 3D visualization / Drafting / Interior decoration",
+      "type":"Conceptual design / Spatial planning / 3D Visualisation / Drafting / Branding, Graphic & Print Design",
       "snippet":"A new development with 1, 2, & 3 bedroom apartments, designed with beautiful materials, natural light, decor flexibility, outdoor space, and a sense of community",
       "thumbSrc":"/assets/images/the-gardens/thumb.jpg",
       "annotations":"",
@@ -80,7 +80,7 @@
         {
           "type":"text",
           "title":"A shared outdoors",
-          "content":"The Gardens complex is designed around a central shared garden space, ensuring all occupants have usable outdoor areas. The garden itself is terraced into multiple levels to create a versatile mixed use space, and afford residents a sense privacy."
+          "content":"The Gardens complex is designed around a central shared garden space and private balconies, ensuring all occupants have usable outdoor areas. The garden itself is terraced into multiple levels to create a versatile mixed use space, and afford residents a sense privacy."
         },
 
         {
@@ -138,31 +138,31 @@
               "src":"/assets/images/the-gardens/option1.png",
               "aspect":"four-three",
               "width":"half",
-              "caption":"Fig. 4.1 – 1 Bedroom"
+              "caption":"Fig. 4.1 – One Bedroom (also available in mirrored variant)"
             },
             {
               "src":"/assets/images/the-gardens/option2.png",
               "aspect":"four-three",
               "width":"half",
-              "caption":"Fig. 4.2 – 1 Bedroom"
+              "caption":"Fig. 4.2 – One Bedroom"
             },
             {
               "src":"/assets/images/the-gardens/option3.png",
               "aspect":"four-three",
               "width":"half",
-              "caption":"Fig. 4.3 – 2 Bedroom"
+              "caption":"Fig. 4.3 – Two Bedroom"
             },
             {
               "src":"/assets/images/the-gardens/option4.png",
               "aspect":"four-three",
               "width":"half",
-              "caption":"Fig. 4.4 – 1 Bedroom"
+              "caption":"Fig. 4.4 – One Bedroom"
             },
             {
               "src":"/assets/images/the-gardens/option5.png",
               "aspect":"square",
               "width":"half",
-              "caption":"Fig. 4.5 – 3 Bedroom"
+              "caption":"Fig. 4.5 – Three Bedroom"
             }
           ]
         },
@@ -180,13 +180,13 @@
               "src":"/assets/images/the-gardens/bedroom.jpg",
               "aspect":"four-three",
               "width":"two-thirds",
-              "caption":"Fig. 5.0 – Custom joinery"
+              "caption":"Fig. 5.0 – 'Bedhead' Custom joinery removes side tables to free up floor space"
             },
             {
               "src":"/assets/images/the-gardens/ensuite.jpg",
               "aspect":"square",
               "width":"third",
-              "caption":"Fig. 5.1 – Space efficient ensuite"
+              "caption":"Fig. 5.1 – Ensuite"
             }
           ]
         },
@@ -204,7 +204,7 @@
               "src":"/assets/images/the-gardens/floor-plan-existing.png",
               "aspect":"four-three",
               "width":"full",
-              "caption":"Fig. 6.0 – Original floor plan"
+              "caption":"Fig. 6.0 – Plan showing new design worked around existing/unmoveable structures."
             }
           ]
         },
@@ -233,7 +233,7 @@
               "src":"/assets/images/the-gardens/booklet.gif",
               "aspect":"four-three",
               "width":"full",
-              "caption":"Fig. 8.0 – The gardens promotional leaflet"
+              "caption":"Fig. 8.0 – The gardens promotional booklet. Including logo & branding"
             }
           ]
         }
@@ -248,7 +248,7 @@
       "name":"Horizon Apartment",
       "date":"2017",
       "size":"five-sixths",
-      "type":"Spatial planning / 3D visualization",
+      "type":"Spatial planning / 3D visualisation",
       "snippet":"Renovation of a north facing Darlinghurst apartment, designed to improve natural light penetration and flow of space.",
       "thumbSrc":"/assets/images/horizon-apartment/thumb.jpg",
       "annotations":"**Image Ref Sources:** \n\n 1. White Paint: http://bit.ly/2jnrRh0 \n 2.  Timber: http://bit.ly/2yVyxdb \n 3. Stone: http://bit.ly/2hwY5WH",
@@ -539,7 +539,7 @@
         {
           "type":"text",
           "title":"Keeping the original character",
-          "content":"The original flooring & bulkheads has been left intact, both to channel the original character of the building, and to ease the renovation process. Walls and joinery have been designed to work either under, inline, with or flush to the existing bulkheads."
+          "content":"The original flooring & bulkheads have been left intact, both to channel the original character of the building, and to ease the renovation process. Walls and joinery have been designed to work either under, inline, with or flush to the existing bulkheads."
         },
         {
           "type":"image-grid",
@@ -568,7 +568,7 @@
       "slug":"cubby-house",
       "name":"Cubby House",
       "date":"2017",
-      "type":"Conceptual design / spatial planning / 3D visualization",
+      "type":"Conceptual design / spatial planning / 3D visualisation",
       "snippet":"A compact, affordable, and eco-friendly dwelling, designed in response to the growing housing affordability crisis.",
       "thumbSrc":"/assets/images/cubby-house/thumb.jpg",
       "annotations":"**Image References** \n 1. Porterspaints.com. Naturals - Milk Paint. Publish date unknown. http://www.porterspaints.com/paints/naturals/milk-paint/ \n 2.  Kirei.com. Coco Tiles. Publish date unknown. http://kireiusa.com/kirei-coco-tiles/ \n 3.  Kirei.com. Kirei Board. Publish date unknown http://kireiusa.com/kirei-board/ \n 4. Kirei.com. Kirei Board. Publish date unknown http://kireiusa.com/kirei-board \n 5.  Sudo, R. NUNO - Green Fabric. Published 2001. http://www.nuno.com/en/textile/green-fabric \n 6. Envirotextiles. 100% Hemp Textiles. Published 2010. https://envirotextile.com/hemp-fabrics/hemp-canvas \n 7.  Kirei.com. Kirei Board. Publish date unknown. http://kireiusa.com/kirei-board",
@@ -649,7 +649,7 @@
               "src":"/assets/images/cubby-house/bar-table-open.jpg",
               "aspect":"four-three",
               "width":"two-thirds",
-              "caption":"Fig. 3.1 – Bar table can extend into outdoor area"
+              "caption":"Fig. 3.1 – Bar table can extend into outdoor/entertainment area"
             },
             {
               "src":"/assets/images/cubby-house/laundry-open.jpg",
@@ -669,7 +669,7 @@
         {
           "type":"text",
           "title":"Passive heating & cooling",
-          "content":"The house utilises its aspect, along with the natural flow of air to cool during warmer months (passive cooling), while remaining warm during winters."
+          "content":"The house utilises its aspect, along with the natural flow of air to cool during warmer months (via passive cooling), while remaining warm during winters."
         },
 
         {
@@ -899,14 +899,14 @@
               "src":"/assets/images/southern-cross-aged-care/floor-plan.jpg",
               "aspect":"four-three",
               "width":"full",
-              "caption":"Fig. 3.1 – Areas seperated by floor colour"
+              "caption":"Fig. 3.1 – Areas seperated by floor material/colour"
             }
           ]
         },
         {
           "type":"text",
           "title":"Safe, hardy, and easy to maintain",
-          "content":"Materials and furnishings were chosen for robustness, safety, and ease of maintenance in mind - with hard-wearing/high-grip flooring, easily washable paints, and waterproof upholstery throughout."
+          "content":"Materials and furnishings were chosen for robustness, safety, and ease of maintenance in mind - with hard-wearing/high-grip flooring, easily washable paints, and waterproof upholstery throughout - all while maintaining a welcoming residential aesthetic."
         },
         {
           "type":"image-grid",
@@ -947,7 +947,7 @@
       "date":"2015 - 2018",
       "type":"Various",
       "snippet":"A ongoing collection of small snippets of other projects. A mix of conceptual work, technical illustrations, sketches, and other things",
-      "thumbSrc":"/assets/images/other-work/wentworth-point/cb-render-kitchen.jpg",
+      "thumbSrc":"/assets/images/other-work/wentworth-point/cb-ensuite-section-1-thumb.png",
       "pageBlocks":[
         {
           "type":"intro",
@@ -966,12 +966,7 @@
         {
           "type":"image-grid",
           "images":[
-            {
-              "src":"/assets/images/other-work/wentworth-point/cb-render-bedroom-study.jpg",
-              "aspect":"four-three",
-              "width":"half",
-              "caption":"Bedroom study pre-visualisation"
-            },
+
             {
               "src":"/assets/images/other-work/wentworth-point/cb-render-bedroom.jpg",
               "aspect":"four-three",
