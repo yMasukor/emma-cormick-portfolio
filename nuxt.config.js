@@ -61,6 +61,12 @@ module.exports = {
       },
       { name: 'msapplication-TileColor', content: '#ffffff' },
       { name: 'theme-color', content: '#ffffff' }
+    ],
+    script: [
+      {
+        src:
+          'https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver'
+      }
     ]
   },
 
