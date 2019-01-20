@@ -1,0 +1,96 @@
+.center-col{
+  max-width: $max;
+  margin: 0 auto;
+}
+
+.h-padded{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+
+  @media (min-width: $small) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  @media (min-width: $mid) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  @media (min-width: $big) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+.v-padded{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  box-sizing: border-box;
+
+  @media (min-width: $small) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  @media (min-width: $mid) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  @media (min-width: $big) {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+
+
+.xs-full{
+  width: 100%;
+}
+
+.xs-third{
+  width: 33.33%;
+}
+
+.xs-two-thirds{
+  width: 66.66%;
+}
+
+.offset-xs-third{
+  margin-left: 33.33%;
+}
+
+@media (min-width: $small) {
+  .s-third{
+    width: 33.33%;
+  }
+
+  .s-two-thirds{
+    width: 66.66%;
+  }
+}
+
+@media (min-width: $mid) {
+  .m-third{
+    width: 33.33%;
+  }
+
+  .m-two-thirds{
+    width: 66.66%;
+  }
+}
+
+@media (min-width: $big) {
+  .l-third{
+    width: 33.33%;
+  }
+
+  .l-two-thirds{
+    width: 66.66%;
+  }
+}
+
+
