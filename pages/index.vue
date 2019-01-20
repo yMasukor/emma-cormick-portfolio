@@ -261,18 +261,19 @@ a {
   }
 }
 
-// .hoverable {
-//   perspective: 500px;
-//   transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1);
-//   transform: rotateX(-12deg) rotateY(-6deg) rotateZ(0deg);
+.hoverable {
+  perspective: 500px;
+  transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1);
+  // transform: rotateX(-12deg) rotateY(-6deg) rotateZ(0deg);
 
-//   &:nth-child(2n + 1) {
-//     transform: rotateX(12deg) rotateY(-6deg) rotateZ(-0deg);
-//   }
+  &:nth-child(2n + 1) {
+    // transform: rotateX(12deg) rotateY(-6deg) rotateZ(-0deg);
+  }
 
-//   &:hover {
-//     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-//     transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
-//   }
-// }
+  &:hover {
+    // transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    transform: translate3d(0, -1rem, 0);
+    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+}
 </style>
