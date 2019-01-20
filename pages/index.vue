@@ -5,14 +5,14 @@
       class="h-padded">
       <h1 id="logo">Emma<br>Cormick</h1>
       <nav>
-        <a>hi@emmacormick.com</a>
-        <a>View Resumé</a>
+        <a href="mailto:hi@emmacormick.com">hi@emmacormick.com</a>
+        <a href="/Emma Cormick CV 2019.pdf" target="_blank">View Resumé</a>
       </nav>
     </header>
     <div id="content">
       <section>
         <div class="text-block">
-          <p>✏️ Interior &amp; spatial designer.<br>🇦🇺 Based in Sydney, Australia.<br>💁‍♀️ Currently available for hire.</p>
+          <p class="lead">✏️ Interior &amp; spatial designer.<br>🇦🇺 Based in Sydney, Australia.<br>💁‍♀️ Currently available for hire.</p>
         </div>
       </section>
 
@@ -20,7 +20,7 @@
         <figure>
           <fixed-aspect
             class="hoverable xs-full"
-            aspect="four-three">
+            aspect="sixteen-nine">
             <lazy-image
               :src="'image-1.png'"
               alt="Some Alt Text"/>
@@ -32,7 +32,7 @@
               :src="'image-2.png'"
               alt="Some Alt Text"/>
           </fixed-aspect>
-          <figcaption class="xs-two-thirds offset-xs-third">Some Client – 123 Some St</figcaption>
+          <figcaption class="xs-two-thirds offset-xs-third">Meraki CISCO – Sydney Concept</figcaption>
         </figure>
       </section>
 
@@ -48,7 +48,7 @@
       <section>
         <figure>
           <fixed-aspect
-            class="hoverable xs-third offset-xs-third"
+            class="hoverable xs-two-thirds m-third offset-xs-third"
             aspect="four-three">
             <lazy-image
               :src="'image-3.png'"
@@ -61,7 +61,7 @@
               :src="'image-4.png'"
               alt="Some Alt Text"/>
           </fixed-aspect>
-          <figcaption class="xs-full">Some Client – 123 Some St</figcaption>
+          <figcaption class="xs-full">The Third Space – Brisbane</figcaption>
         </figure>
       </section>
 
@@ -100,27 +100,27 @@
       <section>
         <figure>
           <fixed-aspect
-            class="hoverable xs-two-thirds offset-xs-third"
+            class="hoverable xs-full"
             aspect="four-three">
             <lazy-image
               :src="'image-5.png'"
               alt="Some Alt Text"/>
           </fixed-aspect>
           <fixed-aspect
-            class="hoverable xs-two-thirds offset-top"
+            class="hoverable xs-two-thirds m-third offset-xs-third offset-top"
             aspect="four-three">
             <lazy-image
               :src="'image-6.png'"
               alt="Some Alt Text"/>
           </fixed-aspect>
-          <figcaption class="xs-two-thirds">Some Client – 123 Some St</figcaption>
+          <figcaption class="offset-xs-third xs-two-thirds">Cubby House – Concept</figcaption>
         </figure>
       </section>
 
       <section id="cta">
         <div
           class="h-padded">
-          <a id="email">hi@emmacormick.com</a>
+          <a href="mailto:hi@emmacormick.com" id="email">hi@emmacormick.com</a>
           <p>👋 Get in touch for a chat, or for complete examples of my work</p>
         </div>
       </section>
@@ -187,7 +187,7 @@ a {
 
 .text-block {
   @extend .h-padded;
-  @media (min-width: $mid) {
+  @media (min-width: $big) {
     width: 66.66%;
   }
   @media (min-width: $max) {
@@ -252,18 +252,18 @@ a {
   }
 }
 
-.hoverable {
-  perspective: 500px;
-  transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1);
-  transform: rotateX(-12deg) rotateY(-6deg) rotateZ(0deg);
+// .hoverable {
+//   perspective: 500px;
+//   transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1);
+//   transform: rotateX(-12deg) rotateY(-6deg) rotateZ(0deg);
 
-  &:nth-child(2n + 1) {
-    transform: rotateX(12deg) rotateY(-6deg) rotateZ(-0deg);
-  }
+//   &:nth-child(2n + 1) {
+//     transform: rotateX(12deg) rotateY(-6deg) rotateZ(-0deg);
+//   }
 
-  &:hover {
-    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
-  }
-}
+//   &:hover {
+//     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+//     transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+//   }
+// }
 </style>
