@@ -113,9 +113,9 @@ module.exports = {
         loader: 'responsive-loader',
         options: {
           // disable:true,
-          sizes: [400, 800, 1200, 1800, 2400],
+          sizes: [400, 800, 1200, 1440],
           // adapter: require('responsive-loader/sharp'),
-          quality: 95
+          quality: 75
         }
       })
     }

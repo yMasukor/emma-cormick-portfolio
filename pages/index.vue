@@ -6,7 +6,9 @@
       <h1 id="logo">Emma<br>Cormick</h1>
       <nav>
         <a href="mailto:hi@emmacormick.com">hi@emmacormick.com</a>
-        <a href="/Emma Cormick CV 2019.pdf" target="_blank">View Resumé</a>
+        <a
+          href="/Emma Cormick CV 2019.pdf"
+          target="_blank">View Resumé</a>
       </nav>
     </header>
     <div id="content">
@@ -120,7 +122,9 @@
       <section id="cta">
         <div
           class="h-padded">
-          <a href="mailto:hi@emmacormick.com" id="email">hi@emmacormick.com</a>
+          <a
+            id="email"
+            href="mailto:hi@emmacormick.com">hi@emmacormick.com</a>
           <p>👋 Get in touch for a chat, or for complete examples of my work</p>
         </div>
       </section>
@@ -176,8 +180,13 @@ figcaption {
 
 a {
   display: block;
+  color: inherit;
   &:hover {
     opacity: 0.8;
+  }
+
+  &:visited {
+    color: inherit;
   }
 }
 
