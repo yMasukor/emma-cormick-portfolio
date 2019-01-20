@@ -23,14 +23,14 @@
             aspect="sixteen-nine">
             <lazy-image
               :src="'image-1.png'"
-              alt="Some Alt Text"/>
+              alt="3D Render of Meraki CISCO Office space"/>
           </fixed-aspect>
           <fixed-aspect
             class="hoverable xs-two-thirds offset-xs-third offset-top"
             aspect="four-three">
             <lazy-image
               :src="'image-2.png'"
-              alt="Some Alt Text"/>
+              alt="Isometric view of Meraki CISCO Office space floorplace"/>
           </fixed-aspect>
           <figcaption class="xs-two-thirds offset-xs-third">Meraki CISCO – Sydney Concept</figcaption>
         </figure>
@@ -52,14 +52,14 @@
             aspect="four-three">
             <lazy-image
               :src="'image-3.png'"
-              alt="Some Alt Text"/>
+              alt="Floorplans for The Third Space, Brisbane"/>
           </fixed-aspect>
           <fixed-aspect
             class="hoverable xs-full offset-top"
             aspect="four-three">
             <lazy-image
               :src="'image-4.png'"
-              alt="Some Alt Text"/>
+              alt="Documentation of a custom corner bench"/>
           </fixed-aspect>
           <figcaption class="xs-full">The Third Space – Brisbane</figcaption>
         </figure>
@@ -104,14 +104,14 @@
             aspect="four-three">
             <lazy-image
               :src="'image-5.png'"
-              alt="Some Alt Text"/>
+              alt="3D Render of the Cubby House"/>
           </fixed-aspect>
           <fixed-aspect
             class="hoverable xs-two-thirds m-third offset-xs-third offset-top"
             aspect="four-three">
             <lazy-image
               :src="'image-6.png'"
-              alt="Some Alt Text"/>
+              alt="In situ mockup of the Cubby House"/>
           </fixed-aspect>
           <figcaption class="offset-xs-third xs-two-thirds">Cubby House – Concept</figcaption>
         </figure>
