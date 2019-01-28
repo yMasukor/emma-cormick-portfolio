@@ -1,75 +1,50 @@
 <template>
   <div id="page">
-    <header
-      id="header"
-      class="h-padded">
-      <h1 id="logo">Emma<br>Cormick</h1>
-      <nav>
-        <a href="mailto:hi@emmacormick.com">hi@emmacormick.com</a>
-        <a
-          href="/Emma Cormick CV 2019.pdf"
-          target="_blank">View Resumé</a>
-      </nav>
-    </header>
-    <div id="content">
-      <section>
-        <div class="text-block">
-          <p class="lead">✏️ Interior &amp; spatial designer.<br>🇦🇺 Based in Sydney, Australia.<br>💁‍♀️ Currently available for hire.</p>
+    <section class="no-bottom-padding ">
+      <div class="horizontal row">
+        <div class="cell m-third">
+          <p class="small no-top-margin">
+            Interior &amp; spatial designer.<br>
+            Based in Sydney, Australia.<br>
+            Currently available for hire.</p>
         </div>
-      </section>
-
-      <section>
-        <figure>
-          <fixed-aspect
-            class="hoverable xs-full"
-            aspect="sixteen-nine">
-            <lazy-image
-              :src="'image-1.png'"
-              alt="3D Render of Meraki CISCO Office space"/>
-          </fixed-aspect>
-          <fixed-aspect
-            class="hoverable xs-two-thirds offset-xs-third offset-top"
-            aspect="four-three">
-            <lazy-image
-              :src="'image-2.png'"
-              alt="Isometric view of Meraki CISCO Office space floorplace"/>
-          </fixed-aspect>
-          <figcaption class="xs-two-thirds offset-xs-third">Meraki CISCO – Sydney Concept</figcaption>
-        </figure>
-      </section>
-
-      <section>
-        <div class="text-block">
-          <h2>I create thoughtful spaces for humans.</h2>
+        <div class="cell lead m-two-thirds l-half">
+          <p class="no-top-margin">I create thoughtful spaces for humans.</p>
           <p>I believe everyone deserves well designed spaces.</p>
           <p>I design interiors which are personal, considered and thoughtful, both in concept and in detail.</p>
           <p>I aim to understand people’s unique and individual needs, and  create beautiful, functional spaces to live and work</p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section>
-        <figure>
-          <fixed-aspect
-            class="hoverable xs-two-thirds m-third offset-xs-third"
-            aspect="four-three">
-            <lazy-image
-              :src="'image-3.png'"
-              alt="Floorplans for The Third Space, Brisbane"/>
-          </fixed-aspect>
-          <fixed-aspect
-            class="hoverable xs-full offset-top"
-            aspect="four-three">
-            <lazy-image
-              :src="'image-4.png'"
-              alt="Documentation of a custom corner bench"/>
-          </fixed-aspect>
-          <figcaption class="xs-full">The Third Space – Brisbane</figcaption>
-        </figure>
-      </section>
 
-      <section>
-        <div class="text-block">
-          <h2>Skills</h2>
+    <section
+      v-for="(work, index) in works.filter(item => !item.hide)"
+      :key="work.id"
+      :id="`study-${index}`"
+      class="no-bottom-padding">
+      <div
+        :class="[index % 2 === 0 ? 'reverse' : '']"
+        class="horizontal row">
+        <nuxt-link
+          :class="work.width"
+          :to="{name: `works-${work.id}`}"
+          class="cell work">
+          <h2>{{ work.name }}</h2>
+          <fixed-aspect :aspect="work.thumb.aspect">
+            <lazy-image :src="work.thumb.src"/>
+          </fixed-aspect>
+          <p class="caption">{{ work.desc }}</p>
+        </nuxt-link>
+      </div>
+    </section>
+
+    <section class="skills accent">
+      <div class="horizontal row">
+        <div class="cell xs-full m-third">
+          <h2>I can help with</h2>
+        </div>
+        <div class="cell xs-full s-half m-third">
           <ul>
             <li>Conceptual Design & Development</li>
             <li>Spatial Planning</li>
@@ -82,11 +57,7 @@
             <li>Styling & Interior Photography</li>
           </ul>
         </div>
-      </section>
-
-      <section>
-        <div class="text-block">
-          <h2>Tools</h2>
+        <div class="cell xs-full s-half m-third">
           <ul>
             <li>Revit</li>
             <li>AutoCAD</li>
@@ -97,49 +68,25 @@
             <li>Autodesk Maya</li>
           </ul>
         </div>
-      </section>
-
-      <section>
-        <figure>
-          <fixed-aspect
-            class="hoverable xs-full"
-            aspect="four-three">
-            <lazy-image
-              :src="'image-5.png'"
-              alt="3D Render of the Cubby House"/>
-          </fixed-aspect>
-          <fixed-aspect
-            class="hoverable xs-two-thirds m-third offset-xs-third offset-top"
-            aspect="four-three">
-            <lazy-image
-              :src="'image-6.png'"
-              alt="In situ mockup of the Cubby House"/>
-          </fixed-aspect>
-          <figcaption class="offset-xs-third xs-two-thirds">Cubby House – Concept</figcaption>
-        </figure>
-      </section>
-
-      <section id="cta">
-        <div
-          class="h-padded">
-          <a
-            id="email"
-            href="mailto:hi@emmacormick.com">hi@emmacormick.com</a>
-          <p>👋 Get in touch for a chat, or for complete examples of my work</p>
-        </div>
-      </section>
-
-    </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
+import works from '~/data/works.json'
+
 import FixedAspect from '~/components/FixedAspect.vue'
 import LazyImage from '~/components/LazyImage.vue'
 export default {
   components: {
     FixedAspect,
     LazyImage
+  },
+  data() {
+    return {
+      works: works
+    }
   }
 }
 </script>
@@ -148,132 +95,29 @@ export default {
 @import '../assets/scss/variables.scss';
 @import '../assets/scss/layout.scss';
 
-#page {
-  padding-top: 1.5rem;
-
-  @media (min-width: $small) {
-    padding-top: 2rem;
-  }
-
-  @media (min-width: $mid) {
-    padding-top: 2rem;
-  }
-
-  @media (min-width: $big) {
-    padding-top: 3rem;
-  }
-}
-
-header {
-  @extend .v-padded;
-}
-
 section {
-  @extend .v-padded;
-}
+  padding-top: 33.33vh;
+  padding-bottom: 33.33vh;
 
-figcaption {
-  @extend .h-padded;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-a {
-  display: block;
-  color: inherit;
-  &:hover {
-    opacity: 0.8;
-  }
-
-  &:visited {
-    color: inherit;
+  &.no-bottom-padding {
+    padding-bottom: 0px;
   }
 }
 
-.offset-top {
-  margin-top: -2rem;
-}
-
-.text-block {
-  @extend .h-padded;
-  @media (min-width: $big) {
-    width: 66.66%;
-  }
-  @media (min-width: $max) {
-    width: 50%;
-    margin-left: 33.33%;
+.reverse .work {
+  text-align: right;
+  .caption {
+    float: right;
   }
 }
 
-#cta {
-  height: 100vh;
-  background-color: $primary;
-  color: $background;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin-top: 25vh;
-
-  #email {
-    font-family: 'IBM Plex Serif', serif;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    margin-bottom: 1.5rem;
-    font-weight: bold;
-
-    @media (min-width: $max) {
-      font-size: 2.5rem;
-      line-height: 2rem;
-    }
+.work {
+  .caption {
+    max-width: 416px;
   }
 }
 
-@media (min-width: $mid) {
-  #header {
-    position: fixed;
-    height: 100vh;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    top: 0px;
-    left: 0px;
-  }
-
-  #logo {
-    transform-origin: 0% 0%;
-    transform: rotateZ(-90deg) translate3d(-6rem, -8px, 0px);
-  }
-
-  #content {
-    margin-left: 40%;
-  }
-}
-
-@media (min-width: $max) {
-  #header {
-    width: 30%;
-  }
-
-  #content {
-    margin-left: 30%;
-  }
-}
-
-.hoverable {
-  perspective: 500px;
-  transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1);
-  // transform: rotateX(-12deg) rotateY(-6deg) rotateZ(0deg);
-
-  &:nth-child(2n + 1) {
-    // transform: rotateX(12deg) rotateY(-6deg) rotateZ(-0deg);
-  }
-
-  &:hover {
-    // transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-    transform: translate3d(0, -1rem, 0);
-    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
-  }
+.skills {
+  margin-top: 33.33vh;
 }
 </style>

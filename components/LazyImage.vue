@@ -4,8 +4,7 @@
 
     <v-lazy-image
       v-if="intersectionOptions"
-      :src="require(`../assets/images/${src}?sizes[]=1200 `).src"
-      :srcset="require(`../assets/images/${src}?sizes[]=400,sizes[]=800,sizes[]=1200,sizes[]=1800,sizes[]=2400 `).srcSet"
+      :src="require(`../assets/images/${src}`)"
       :alt="alt"
       :intersection-options="intersectionOptions"
       class="image-element"

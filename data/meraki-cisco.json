@@ -1,0 +1,72 @@
+{
+  "id":"meraki-cisco",
+  "name":"Meraki CISCO, Sydney",
+  "desc":"A redesign of Meraki CISCO’s Sydney office - to better accommodate their team’s unique & flexible working styles, all within a cost effective solution",
+  "status":"Awaiting tender",
+  "next":"the-third-space",
+  "blocks":[
+    {
+      "type":"image",
+      "width":"xs-five-sixths m-two-thirds",
+      "src":"meraki-cisco/workspace.jpg",
+      "aspect":"sixteen-nine",
+      "alt":"",
+      "caption":"Rearrangeable cluster desks for teams, window seating, phone booths and quiet acoustic meeting spaces provide a dynamic and flexible working space."
+    },
+    {
+      "type":"image",
+      "width":"xs-two-thirds m-half",
+      "src":"meraki-cisco/kitchen.jpg",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"Dining & Breakout Area provides a number of seating options"
+    },
+    {
+      "type":"image",
+      "width":"xs-five-sixths m-two-thirds",
+      "src":"meraki-cisco/breakout.jpg",
+      "aspect":"sixteen-nine",
+      "alt":"",
+      "caption":"Tiered seating in the dining/breakout area doubles as company seating during large internal meetings - supplemented by drop down projector screens."
+    },
+    {
+      "type":"text",
+      "title":"Space to Move",
+      "copy":"The Meraki CISCO team value variety in their workspace. To accommodate this, the plan includes a number of ad- hoc working spaces, as well as breakout couches and booths around the entire perimeter of the office, ensuring there’s always space to move."
+    },
+    {
+      "type":"image",
+      "width":"xs-full",
+      "src":"meraki-cisco/full-plan.png",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"Complete floor plan"
+    },
+    {
+      "type":"text",
+      "title":"For Flexible Teams",
+      "copy":"As Meraki CISCO’s teams work in a variety of styles, their space needs to adapt to match – accommodating everything from large stakeholder workshops, close team collaboration, and focused, individual work."
+    },
+    {
+      "type":"image",
+      "width":"xs-five-sixths m-two-thirds",
+      "src":"meraki-cisco/zones.png",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"Zonal breakdown of floor plan. Blue: Workspace. Purple: Meeting, Red: Recreation, Navy: Kitchen & Breakout, Yellow: Entry, Green: Outdoor."
+    },
+    {
+      "type":"text",
+      "title":"Not Just For Work",
+      "copy":"A productive work environment is about more than just work. High-performing teams need to be mindful of mental & physical health, so the offices include several spaces to relax & recharge – including a yoga & games spaces."
+    },
+    {
+      "type":"image",
+      "width":"xs-two-thirds m-half",
+      "src":"meraki-cisco/isometric.png",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"Isometric of space"
+    }
+  ]
+}

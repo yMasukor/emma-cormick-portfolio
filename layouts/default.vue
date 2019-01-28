@@ -1,55 +1,63 @@
 <template>
   <div>
+    <header>
+      <div class="horizontal row">
+        <nuxt-link :to="{name: 'index'}">
+          <h1 class="cell">Emma<br>Cormick</h1>
+        </nuxt-link>
+      </div>
+    </header>
     <nuxt/>
+    <footer class="accent">
+      <div class="horizontal row">
+        <a
+          class="cell"
+          href="">Download Resumè</a>
+        <a
+          class="cell"
+          href="">hi@emmacormick.com</a>
+      </div>
+    </footer>
   </div>
 </template>
 
-<style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+<style lang="scss" scoped>
+@import '../assets/scss/variables.scss';
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: $accent;
+  }
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
+  .horizontal {
+    justify-content: space-between;
+  }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+  a {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 </style>

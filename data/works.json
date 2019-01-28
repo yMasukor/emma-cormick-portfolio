@@ -1,0 +1,89 @@
+[
+  {
+    "id":"meraki-cisco",
+    "name":"Meraki CISCO, Sydney",
+    "desc":"A redesign of Meraki CISCO’s Sydney office - to better accommodate their team’s unique & flexible working styles, all within a cost effective solution",
+    "status":"Awaiting tender",
+    "width":"xs-five-sixths m-two-thirds",
+    "thumb":{
+      "src":"meraki-cisco/thumb.jpg",
+      "aspect":"sixteen-nine",
+      "alt":""
+    }
+  },
+  {
+    "id":"the-third-space",
+    "name":"The Third Space, Brisbane",
+    "desc":"A co-working area, designed to make the most of unused space in the Orion shopping center.",
+    "status":"Build in progress",
+    "width":"xs-five-sixths m-two-thirds",
+    "thumb":{
+      "src":"the-third-space/thumb.jpg",
+      "aspect":"four-three",
+      "alt":""
+    }
+  },
+  {
+    "id":"the-gardens",
+    "name":"The Gardens, Sydney",
+    "desc":"A single floor residential apartment complex, built atop an existing building. Redeveloped to be 1, 2, & 3 bedroom apartments - designed with timeless materials, natural light, decor flexibility, and a sense of community.",
+    "status":"Conceptual work",
+    "width":"xs-half m-third",
+    "thumb":{
+      "src":"the-gardens/thumb.jpg",
+      "aspect":"four-three",
+      "alt":""
+    }
+  },
+  {
+    "id":"eagle-st",
+    "name":"L20 /10 Eagle St, Brisbane",
+    "desc":"Design & documentation of custom bookshelves, bench, and kitchen joinery. Samples taken from a larger, complete documentation package",
+    "status":"Build in progress",
+    "width":"xs-half",
+    "thumb":{
+      "src":"eagle-st/thumb.png",
+      "aspect":"four-three",
+      "alt":""
+    }
+  },
+  {
+    "hide":true,
+    "id":"the-cubby-house",
+    "name":"The Cubby House, Sydney",
+    "desc":"A compact, affordable, and eco-friendly dwelling, designed in response to the growing housing affordability crisis.",
+    "status":"Conceptual work",
+    "width":"xs-half",
+    "thumb":{
+      "src":"",
+      "aspect":"four-three",
+      "alt":""
+    }
+  },
+  {
+    "hide":true,
+    "id":"mitchison-house",
+    "name":"Mitchison House, Sydney, Brisbane",
+    "desc":"AutoCAD documentation example. Snippets from a quick, complete documentation package drawn entirely from scratch.",
+    "status":"Documentation samples",
+    "width":"xs-full",
+    "thumb":{
+      "src":"",
+      "aspect":"sixteen-nine",
+      "alt":""
+    }
+  },
+  {
+    "hide":true,
+    "id":"farrer-place",
+    "name":"1 Farrer Place, Sydney",
+    "desc":"Revit documentation of custom joinery for a commercial office space. Samples taken from a larger, complete documentation package",
+    "status":"Build in provress",
+    "width":"xs-five-sixths m-two-thirds",
+    "thumb":{
+      "src":"",
+      "aspect":"four-three",
+      "alt":""
+    }
+  }
+]

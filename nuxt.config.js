@@ -108,22 +108,22 @@ module.exports = {
         })
       }
 
-      const urlLoader = config.module.rules.find(
-        rule =>
-          rule.test.toString() === /\.(png|jpe?g|gif|svg|webp)$/.toString()
-      )
-      urlLoader.exclude = /\.(jpe?g|png)$/
+      // const urlLoader = config.module.rules.find(
+      //   rule =>
+      //     rule.test.toString() === /\.(png|jpe?g|gif|svg|webp)$/.toString()
+      // )
+      // urlLoader.exclude = /\.(jpe?g|png)$/
 
-      config.module.rules.push({
-        test: /\.(jpe?g|png)$/i,
-        loader: 'responsive-loader',
-        options: {
-          // disable:true,
-          sizes: [400, 800, 1200, 1440],
-          // adapter: require('responsive-loader/sharp'),
-          quality: 75
-        }
-      })
+      // config.module.rules.push({
+      //   test: /\.(jpe?g|png)$/i,
+      //   loader: 'responsive-loader',
+      //   options: {
+      //     // disable:true,
+      //     sizes: [400, 800, 1200, 1440],
+      //     // adapter: require('responsive-loader/sharp'),
+      //     quality: 75
+      //   }
+      // })
     }
   }
 }

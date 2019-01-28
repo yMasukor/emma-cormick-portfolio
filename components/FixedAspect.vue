@@ -20,6 +20,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+// @import '../assets/scss/variables.scss';
+
 @mixin aspect-ratio($width, $height) {
   position: relative;
   &:before {
@@ -34,6 +36,7 @@ export default {
     left: 0;
     right: 0;
     bottom: 0;
+    // background-color: $accent;
 
     /deep/ img {
       width: 100%;
