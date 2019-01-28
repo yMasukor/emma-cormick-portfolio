@@ -29,6 +29,15 @@ figure{
   color: $dark;
 }
 
+.inverse{
+  background-color: $dark;
+  color: $light;
+
+  .image-mask{
+    background-color: $dark!important;
+  }
+}
+
 a{
   display: block;
   color: inherit;

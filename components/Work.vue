@@ -2,12 +2,29 @@
   <div id="page">
     <section class="no-bottom-padding">
       <div class="horizontal row">
-        <div class="cell xs-full m-third">
-          <h1 class="no-top-margin">{{ work.name }}</h1>
-          <p class="small">{{ work.status }}</p>
+        <div class="cell xs-full m-third header-aside">
+          <transition-group
+            tag="div"
+            appear
+            name="build-up">
+            <h1
+              :style="{transitionDelay:`${(1)*100}ms`}"
+              :key="1"
+              class="no-top-margin">{{ work.name }}</h1>
+            <p
+              :style="{transitionDelay:`${(2)*100}ms`}"
+              :key="2"
+              class="small">{{ work.status }}</p>
+          </transition-group>
         </div>
         <div class="cell lead xs-full m-two-thirds l-half">
-          <p class="no-top-margin">{{ work.desc }}</p>
+          <transition
+            appear
+            name="build-up">
+            <p
+              :style="{transitionDelay:`${(2)*100}ms`}"
+              class="no-top-margin">{{ work.desc }}</p>
+          </transition>
         </div>
       </div>
     </section>
@@ -44,8 +61,8 @@
       </div>
     </section>
 
-    <section 
-      v-if="next" 
+    <section
+      v-if="next"
       class="accent next">
       <nuxt-link
         :to="{name: `works-${next.id}`}"
@@ -132,5 +149,16 @@ section {
   h1 {
     text-decoration: underline;
   }
+
+  transition: color 600ms cubic-bezier(0.19, 1, 0.22, 1);
+
+  &:hover {
+    transition: color 300ms cubic-bezier(0.19, 1, 0.22, 1);
+    color: #ff6389;
+  }
+}
+
+.header-aside{
+  margin-bottom: 2rem;
 }
 </style>

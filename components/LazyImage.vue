@@ -1,7 +1,5 @@
 <template>
-  <div class="background">
-    <!-- <img :src="require(`../assets/images/${src}`)"> -->
-
+  <div class="wrapper" >
     <v-lazy-image
       v-if="intersectionOptions"
       :src="require(`../assets/images/${src}`)"
@@ -10,6 +8,9 @@
       class="image-element"
       @load.native="load"
       @intersect="intersect"/>
+    <div 
+      :class="[loaded ? 'loaded' : '']" 
+      class="image-mask"/>
   </div>
 </template>
 
@@ -43,6 +44,8 @@ export default {
   methods: {
     load(e) {
       e.stopPropagation()
+      console.log('loaded')
+      this.loaded = true
       this.$emit('image-load')
     },
     intersect() {
@@ -53,21 +56,28 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.background {
+.wrapper {
   width: 100%;
   height: 100%;
 }
+
 img {
   width: 100%;
   height: 100%;
-  opacity: 0;
-  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
-  transform: translate3d(0, 2rem, 0);
-  background-color: #fff7fc;
 }
 
-img.v-lazy-image-loaded {
-  opacity: 1;
-  transform: translate3d(0, 0rem, 0);
+.image-mask {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #fff;
+  transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
+  transform-origin: 0% 0%;
+
+  &.loaded {
+    transform: scale3d(1, 0, 1);
+  }
 }
 </style>
