@@ -1,0 +1,49 @@
+{
+  "id":"eagle-st",
+  "name":"L20 /10 Eagle St, Brisbane",
+  "desc":"Design & documentation of custom bookshelves, bench, and kitchen joinery. Samples taken from a larger, complete documentation package",
+  "status":"Build in progress",
+  "next":"meraki-cisco",
+  "blocks":[
+    {
+      "type":"image",
+      "width":"xs-full",
+      "src":"eagle-st/1.png",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":""
+    },
+    {
+      "type":"image",
+      "width":"xs-full",
+      "src":"eagle-st/2.png",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":""
+    },
+    {
+      "type":"image",
+      "width":"xs-full",
+      "src":"eagle-st/3.png",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":""
+    },
+    {
+      "type":"image",
+      "width":"xs-full",
+      "src":"eagle-st/4.png",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":""
+    },
+    {
+      "type":"image",
+      "width":"xs-full",
+      "src":"eagle-st/5.png",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":""
+    }
+  ]
+}

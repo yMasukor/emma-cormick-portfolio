@@ -1,0 +1,118 @@
+{
+  "id":"the-gardens",
+  "name":"The Gardens, Sydney",
+  "desc":"A single floor residential apartment complex, built atop an existing building. Redeveloped to be 1, 2, & 3 bedroom apartments - designed with timeless materials, natural light, decor flexibility, and a sense of community.",
+  "status":"Conceptual work",
+  "next":"eagle-st",
+  "blocks":[
+
+    {
+      "type":"image",
+      "width":"xs-five-sixths m-two-thirds",
+      "src":"the-gardens/lounge-2.jpg",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"The Gardens"
+    },
+    {
+      "type":"text",
+      "title":"A Shared Outdoors",
+      "copy":"The Gardens complex is designed around a central shared garden space and private balconies, ensuring all occupants have usable outdoor areas. The outdoor space is terraced into multiple levels to create a versatile mixed use space, and afford residents a sense privacy."
+    },
+    {
+      "type":"image",
+      "width":"xs-full",
+      "src":"the-gardens/plan-outdoors.png",
+      "aspect":"sixteen-nine",
+      "alt":"",
+      "caption":"Open air entry garden, featuring tiered recreation spaces, and bicycle storage. All walkways from lifts to apartments are covered."
+    },
+    {
+      "type":"image",
+      "width":"xs-two-thirds m-half",
+      "src":"the-gardens/lounge-1.jpg",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"The Gardens"
+    },
+    {
+      "type":"text",
+      "title":"Natural Air & Light",
+      "copy":"The central garden corridor ensures that all apartments have at least 3 sides exposed to natural light, with large windows maximizing air flow and natural light penetration."
+    },
+    {
+      "type":"image",
+      "width":"xs-two-thirds m-third",
+      "src":"the-gardens/bedroom.jpg",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"Master Bedroom - Apartment 5"
+    },
+    {
+      "type":"image",
+      "width":"xs-two-thirds m-half",
+      "src":"the-gardens/ensuite.jpg",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"Ensuite - Apartment 5"
+    },
+    {
+      "type":"text",
+      "title":"Efficient, Flexible, Comfortable",
+      "copy":"All apartments are designed to be space efficient, but still comfortable. Custom joinery and sliding doors throughout maximises usable indoor space, while flexible layouts can adapt to a wide range of lifestyles."
+    },
+    {
+      "type":"image",
+      "width":"xs-full",
+      "src":"the-gardens/plan-zones.png",
+      "aspect":"sixteen-nine",
+      "alt":"",
+      "caption":"Floor-plan"
+    },
+    {
+      "type":"text",
+      "title":"5 Unique Styles",
+      "copy":"The complex contains 5 unique apartment layouts, from 1 to 3 bedrooms, in order to accommodate a mix of residents and lifestyles. Larger apartments have ensuites in addition to the main bathroom, and all apartments contain an internal laundry."
+    },
+    {
+      "type":"image",
+      "width":"xs-two-thirds m-half",
+      "src":"the-gardens/option-1.png",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"Option 1"
+    },
+    {
+      "type":"image",
+      "width":"xs-two-thirds",
+      "src":"the-gardens/option-2.png",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"Option 2"
+    },
+    {
+      "type":"image",
+      "width":"xs-two-thirds",
+      "src":"the-gardens/option-3.png",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"Option 3"
+    },
+    {
+      "type":"image",
+      "width":"xs-two-thirds m-half",
+      "src":"the-gardens/option-4.png",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"Option 4"
+    },
+    {
+      "type":"image",
+      "width":"xs-two-thirds",
+      "src":"the-gardens/option-5.png",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"Option 5"
+    }
+  ]
+}

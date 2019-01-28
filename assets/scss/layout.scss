@@ -4,23 +4,23 @@
 }
 
 .h-padded{
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   box-sizing: border-box;
 
   @media (min-width: $small) {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   @media (min-width: $mid) {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   @media (min-width: $big) {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
@@ -46,6 +46,54 @@
 }
 
 
+.horizontal{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  &.reverse{
+    flex-direction: row-reverse;
+  }
+
+  &.v-center{
+    align-items: center;
+  }
+
+  &.v-start{
+    align-items: flex-start;
+  }
+
+  &.v-end{
+    align-items: flex-end;
+  }
+
+  .flex{
+    flex: 1;
+  }
+}
+
+
+
+
+.cell{
+  @extend .h-padded;
+}
+
+.row{
+  @extend .h-padded;
+}
+
+.xs-quarter{
+  width: 25%;
+}
+
+.xs-half{
+  width: 50%;
+}
+
+.xs-three-quarters{
+  width: 75%;
+}
 
 .xs-full{
   width: 100%;
@@ -59,11 +107,27 @@
   width: 66.66%;
 }
 
-.offset-xs-third{
-  margin-left: 33.33%;
+.xs-five-sixths{
+  width: 83.33%;
 }
 
 @media (min-width: $small) {
+  .s-quarter{
+    width: 25%;
+  }
+
+  .s-half{
+    width: 50%;
+  }
+
+  .s-three-quarters{
+    width: 75%;
+  }
+
+  .s-full{
+    width: 100%;
+  }
+
   .s-third{
     width: 33.33%;
   }
@@ -74,6 +138,22 @@
 }
 
 @media (min-width: $mid) {
+  .m-quarter{
+    width: 25%;
+  }
+
+  .m-half{
+    width: 50%;
+  }
+
+  .m-three-quarters{
+    width: 75%;
+  }
+
+  .m-full{
+    width: 100%;
+  }
+
   .m-third{
     width: 33.33%;
   }
@@ -84,6 +164,22 @@
 }
 
 @media (min-width: $big) {
+  .l-quarter{
+    width: 25%;
+  }
+
+  .l-half{
+    width: 50%;
+  }
+
+  .l-three-quarters{
+    width: 75%;
+  }
+
+  .l-full{
+    width: 100%;
+  }
+
   .l-third{
     width: 33.33%;
   }

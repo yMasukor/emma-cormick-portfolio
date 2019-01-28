@@ -1,0 +1,65 @@
+{
+  "id":"the-third-space",
+  "name":"The Third Space, Brisbane",
+  "desc":"A co-working area, designed to make the most of unused space in the Orion shopping center.",
+  "status":"Build in progress",
+  "next":"the-gardens",
+  "blocks":[
+
+    {
+      "type":"image",
+      "width":"xs-five-sixths m-two-thirds",
+      "src":"the-third-space/logo.jpg",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"The Third Space"
+    },
+    {
+      "type":"text",
+      "title":"A Space For Everyone",
+      "copy":"Co-working spaces present a unique challenge – they need to accommodate a wide variety of working styles and uses. As such, the space contains a mix of individual work areas, multi-functional breakout spaces, and private & semi-private meeting spaces."
+    },
+    {
+      "type":"image",
+      "width":"xs-full",
+      "src":"the-third-space/full-plan.png",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"Complete floor plan"
+    },
+    {
+      "type":"text",
+      "title":"Private In Public",
+      "copy":"To stay mindful of people’s privacy – and create a productive work environment – The Third Space has been designed with acoustics in mind. This includes acoustic dampening materials, barriers, and dedicated semi-private booths for more intimate conversations."
+    },
+    {
+      "type":"image",
+      "width":"xs-five-sixths m-two-thirds",
+      "src":"the-third-space/meeting.jpg",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"Two people using an acoustic pod for a meeting"
+    },
+    {
+      "type":"image",
+      "width":"xs-two-thirds m-half",
+      "src":"the-third-space/private-space.jpg",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"A person working in a quiet pod."
+    },
+    {
+      "type":"text",
+      "title":"From Shop Front To Workspace",
+      "copy":"The Third Space was designed within an unused shop- front in the Orion mall, which introduced a number of constraints. To avoid costly modifications, the space is designed around the existing store back room, supports, and infrastructure."
+    },
+    {
+      "type":"image",
+      "width":"xs-five-sixths m-two-thirds",
+      "src":"the-third-space/desks.jpg",
+      "aspect":"four-three",
+      "alt":"",
+      "caption":"Desks are seperated by acoustic screens, offering privacy and a sense of personal space."
+    }
+  ]
+}

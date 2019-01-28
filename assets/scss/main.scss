@@ -13,8 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   font-family: 'IBM Plex Sans', sans-serif;
-  background-color: $background;
-  color: $primary;
+  color: $dark;
 }
 
 img{
@@ -24,3 +23,23 @@ img{
 figure{
   margin: 0px;
 }
+
+.accent{
+  background-color: $accent;
+  color: $dark;
+}
+
+.inverse{
+  background-color: $dark;
+  color: $light;
+
+  .image-mask{
+    background-color: $dark!important;
+  }
+}
+
+a{
+  display: block;
+  color: inherit;
+}
+
